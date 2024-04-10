@@ -1,9 +1,12 @@
 .MakePrivate{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(32, 48, 63);
+    border-radius: 9.97px;
+
+    /* Cards */
+    background: rgb(32, 48, 63);
     padding: calc(17px * 0.32) calc(48px * 0.32);
-    border-radius : calc(30px * 0.32);
+
     align-items: center;
 
 }
@@ -11,17 +14,17 @@
     /* Camption Regular */
     color: rgb(218, 245, 254);
     font-family: "SF Pro Display 400";
-    font-size: calc(46px * 0.325);
+    font-size: 16.62px;
     font-weight: 400;
-    line-height: normal;
+    line-height: 18.26px;
     letter-spacing: 1%;
     text-align: left;
 
 }
 
 .whoCanSee{
-    margin-top: calc(18px * 0.32);
-    margin-left: calc(49px* 0.32);
+    margin-top: 7px;
+    margin-left: 16.29px;
     /* Description */
     color: rgb(218, 245, 254);
     font-family: "SF Pro Display 400";
