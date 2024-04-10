@@ -14,9 +14,9 @@
 }
 .circle {
      line-height: 0;
-    /* background: #fff; */
-    /* border-radius: 50%; */
-    bottom: 2px;
+     background: #fff; 
+     border-radius: 50%; 
+    bottom: 1.85px;
     width: 26px;
     min-height: 26px;
     left: 2px;
