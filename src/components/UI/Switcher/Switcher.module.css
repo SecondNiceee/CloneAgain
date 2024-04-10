@@ -3,27 +3,25 @@
     border-radius: 14.72px;
     border-radius: 14.88px;
     cursor: pointer;
-    height: 29.9px;
+    height: 31px;
     position: relative;
     transition: .32s;
     width: 50px;
-    line-height: 0;
 }
 .Switcher.active{
     background: rgb(45, 200, 83); 
 }
 .circle {
-     line-height: 0;
-     background: #fff; 
-     border-radius: 50%; 
-    bottom: 1.85px;
-    width: 26px;
-    min-height: 26px;
-    left: 2px;
+    background: #fff;
+    border-radius: 50%;
+    bottom: 2.35px;
+    height: 26px;
+    left: 2.5px;
     position: absolute;
     transition: .3s;
     width: 26px;
 }
+
 
 .circle.active{
     left: unset;
