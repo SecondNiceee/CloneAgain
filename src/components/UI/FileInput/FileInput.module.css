@@ -46,6 +46,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 8px;
     flex-wrap: wrap;
+    padding-right: 14.25px;
     margin-top: 3px;
 }
 .FileInput p {
