@@ -1,0 +1,34 @@
+.MakePrivate{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 48, 63);
+    padding: calc(17px * 0.32) calc(48px * 0.32);
+    border-radius : calc(30px * 0.32);
+    align-items: center;
+
+}
+.MakePrivate p {
+    /* Camption Regular */
+    color: rgb(218, 245, 254);
+    font-family: "SF Pro Display 400";
+    font-size: calc(46px * 0.325);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1%;
+    text-align: left;
+
+}
+
+.whoCanSee{
+    margin-top: calc(18px * 0.32);
+    margin-left: calc(49px* 0.32);
+    /* Description */
+    color: rgb(218, 245, 254);
+    font-family: "SF Pro Display 400";
+    font-size: calc(40px * 0.325 * 1.075);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-bottom: calc(100px * 0.32);
+}

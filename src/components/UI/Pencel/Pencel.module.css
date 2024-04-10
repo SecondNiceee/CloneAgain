@@ -1,0 +1,4 @@
+.Pencel img{
+    width: calc(31px * 0.32);
+    height: calc(31px * 0.32);
+}

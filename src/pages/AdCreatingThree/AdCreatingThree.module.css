@@ -1,0 +1,29 @@
+.upTextContainer{
+    display: flex;
+    gap: calc(20px * 0.32);
+    align-items: center;
+}
+.upTextContainer p{
+    /* Bold */
+    color: rgb(255, 255, 255);
+    font-family: "SF Pro Display";
+    font-size: calc(53px * 0.325);
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.upTextContainer img{
+    margin-top: 4px;
+    width: calc(44px * 0.32);
+    height: calc(44px * 0.32);
+}
+.Cap{
+    margin-top: calc(70px * 0.32);
+}
+.PaymentMethod{
+    margin-top: calc(125px*0.32);
+}
+.Holding{
+    margin-top: calc(90px*0.32);
+}

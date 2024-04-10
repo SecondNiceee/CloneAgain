@@ -1,0 +1,1820 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+}
+
+.normail {
+  -ms-flex-item-align: center;
+      align-self: center;
+  line-height: 0;
+  margin-top: 4px;
+}
+
+.First {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  overflow-x: hidden;
+  padding-left: 17.4915254237px;
+  padding-right: 17.4915254237px;
+  width: 100%;
+  height: 100%;
+}
+
+.EmptyText {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 233.6px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.FirstTop {
+  margin-top: 17.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10.9322033898px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.FirstTop img {
+  width: 27.2px;
+  height: 27.2px;
+}
+.FirstTop .Burger__wrapper {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: -10px;
+  left: -10px;
+  z-index: 12;
+}
+
+.FirstMain {
+  margin-top: 17.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 11.2px;
+}
+
+.First__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 18.24px 18.24px 12.48px 16.64px;
+  border-radius: 9.6px;
+  background: rgb(32, 48, 63);
+}
+.First__block .FirstMain__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.First__block .FirstMain__top img {
+  margin-right: 9.6px;
+}
+.First__block .FirstMain__top p {
+  /* Default text */
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: 16.96px;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 233.6px;
+  margin-right: auto;
+}
+.First__block .circle {
+  min-width: 26.88px;
+  max-height: 26.88px;
+  border-radius: 50%;
+  background: rgb(34, 61, 82);
+  position: relative;
+}
+.First__block .circle img {
+  width: 18.88px;
+  height: 18.88px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+      -ms-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+.First__block .FirstMain__middle {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1px;
+}
+.First__block .FirstMain__middle p {
+  color: rgb(149, 151, 158);
+  font-family: "SF Pro Display";
+  font-size: 11.2px;
+  font-weight: 500;
+  line-height: 12.0352px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(149, 151, 158);
+}
+.First__block .FirstMain__bottom {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.First__block .FirstMain__bottom-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+.First__block .FirstMain__bottom-left p {
+  /* Default text */
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.First__block .FirstMain__price-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.First__block .FirstMain__price-up h3 {
+  color: rgb(255, 255, 255);
+  font-family: "SF Compact Rounded";
+  font-size: 22.4px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.First__block .FirstMain__bottom-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7.36px;
+}
+.First__block .FirstMain__bottom-right .tie {
+  -ms-flex-item-align: center;
+      align-self: center;
+  line-height: 0;
+}
+
+.FirstMenu {
+  background-color: rgb(24, 34, 45);
+  z-index: 10;
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  bottom: 0;
+  width: 289.28px;
+  padding: 25.92px 15.36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.FirstMenu .icon {
+  width: 51.2px;
+  height: 51.2px;
+}
+.FirstMenu.hidden {
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+.FirstMenu .FirstMenu__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12.8px;
+}
+.FirstMenu .FirstMenu__top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1px;
+}
+.FirstMenu .MenuName {
+  /* TON Price */
+  color: rgb(255, 255, 255);
+  font-family: "SF Compact Rounded";
+  font-size: 22.4px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.FirstMenu .MenuProfile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.FirstMenu .MenuProfile p {
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.FirstMenu .MenuPrice {
+  margin-top: 28.8px;
+  border-radius: 9.6px;
+  background: rgb(32, 48, 63);
+  padding-top: 8px;
+  padding-left: 15.68px;
+  padding-right: 15.68px;
+  padding-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  position: relative;
+}
+.FirstMenu .MenuPrice .upArr {
+  position: absolute;
+  top: 5.76px;
+  right: 5.76px;
+  width: 4.48px;
+  height: 4.48px;
+}
+.FirstMenu .MenuPrice .dymond {
+  margin-top: 1px;
+}
+.FirstMenu .MenuTextPrice {
+  /* TON Price */
+  color: rgb(255, 255, 255);
+  font-family: "SF Compact Rounded";
+  font-size: 22.4px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.FirstMenu .MenuTextRublePrice {
+  /* Default text */
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 0px;
+}
+.FirstMenu .MenuList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 19.2px;
+  margin-top: 28.8px;
+  /* Menu Text */
+}
+.FirstMenu .MenuList a {
+  color: rgb(149, 151, 158);
+  font-family: "SF Pro Display";
+  font-size: 15.36px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
+}
+.FirstMenu .MenuList a:hover {
+  color: rgb(255, 255, 255);
+}
+.FirstMenu .Menu__Helps {
+  margin-top: 77.12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+.FirstMenu .Menu__Helps img {
+  width: 18.56px;
+}
+.FirstMenu .Menu__Helps a {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display";
+  font-size: 15.36px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.FirstMenu .close {
+  cursor: pointer;
+  position: absolute;
+  width: 15.36px;
+  height: 15.36px;
+  right: 15.36px;
+  top: 25.28px;
+}
+.FirstMenu .close span:nth-child(1) {
+  position: absolute;
+  width: 19.84px;
+  height: 1.92px;
+  background-color: white;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-radius: 3px;
+  background: rgb(255, 255, 255);
+}
+.FirstMenu .close span:nth-child(2) {
+  position: absolute;
+  width: 19.84px;
+  height: 1.92px;
+  background-color: white;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  border-radius: 3px;
+  background: rgb(255, 255, 255);
+}
+.FirstMenu .close__wrapper {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: -20px;
+  left: -14px;
+  z-index: 20;
+}
+
+.TaskDetails {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: rgb(24, 34, 45);
+  padding: 17.92px 15.36px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  left: 0;
+}
+.TaskDetails.active {
+  left: 0%;
+}
+
+.TaskDetails.entering {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.TaskDetails.entered {
+  -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.TaskDetails.exiting {
+  -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.TaskDetails.exited {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.Task__container-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 7.68px;
+}
+.Task__container-one .FullDescription {
+  padding: 14.4px 16.64px;
+  border-radius: 12px;
+  background: rgb(32, 48, 63);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.88px;
+}
+.Task__container-one .FullDescription-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5.12px;
+}
+.Task__container-one .FullDescription-top p {
+  /* Default text */
+  color: rgb(149, 151, 158);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.Task__container-one .FullDescription-top img {
+  width: 11.2px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.Task__container-one .FullDescriptionBottom {
+  /* Default text */
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.Task__container-one .TaskDetails-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+.Task__container-one .customerContainer {
+  padding: 14.4px 19.84px 14.4px 16.64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.88px;
+}
+.Task__container-one .customer__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6.4px;
+}
+.Task__container-one .information-icon {
+  width: 38.4px;
+  height: 38.4px;
+}
+.Task__container-one .customer__information-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.52px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.Task__container-one .customer__information-right-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4.8px;
+}
+.Task__container-one .customer__information-right-name p {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.Task__container-one .customer__information-right-name img {
+  width: 14.72px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.Task__container-one .customer__information-right-rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5.44px;
+}
+.Task__container-one .customer__information-right-rate-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.2px;
+}
+.Task__container-one .rate {
+  /* Small Text */
+  color: rgb(149, 151, 158);
+  font-family: "SF Pro Display";
+  font-size: 11.2px 35px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.Task__container-one .StatusContainer {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 14.4px 16.96px;
+  border-radius: 12px;
+  background: rgb(32, 48, 63);
+}
+.Task__container-one .StatusContainer p {
+  /* Default text */
+  color: rgb(149, 151, 158);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 2.88px;
+}
+.Task__container-one .StatusContainer .TrueActive {
+  /* Default text */
+  color: rgb(42, 207, 88);
+  font-family: SF Pro Display;
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 9.28px;
+}
+.Task__container-one .StatusContainer a {
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display";
+  font-size: 11.2px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.Task__container-one .DeadlineContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.88px;
+  padding-top: 14.4px;
+  padding-left: 16.64px;
+  padding-bottom: 12.48px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-radius: 12px;
+  background: rgb(32, 48, 63);
+}
+.Task__container-one .DeadlineContainer p:nth-child(1) {
+  /* Default text */
+  color: rgb(149, 151, 158);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.Task__container-one .DeadlineContainer p:nth-child(2) {
+  /* Default text */
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.Task__container-one .TaskDetails-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7.68px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.Task__container-one .customerContainer {
+  border-radius: 12px;
+  min-width: 60%;
+  /* Cards */
+  background: rgb(32, 48, 63);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.88px;
+}
+.Task__container-one .customerContainer .customer__up {
+  /* Small Text */
+  color: rgb(149, 151, 158);
+  font-family: SF Pro Display;
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.Task__container-one .customerContainer .information-icon {
+  width: 38.4px;
+  height: 38.4px;
+}
+.Task__container-one .customerContainer .customer__information-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.92px;
+}
+.Task__container-one .customerContainer .customer__information-right-name {
+  margin-top: 3.84px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4.8px p;
+  /* Default text */
+  gap-color: rgb(255, 255, 255);
+  gap-font-family: "SF Pro Display";
+  gap-font-size: 14.08px;
+  gap-font-weight: 500;
+  gap-line-height: 53px;
+  gap-letter-spacing: 0%;
+  gap-text-align: left;
+}
+.Task__container-one .customerContainer .customer__information-right-name img {
+  width: 14.72px;
+}
+.Task__container-one .customerContainer .customer__information-right-rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5.44px;
+}
+.Task__container-one .customerContainer .customer__information-right-rate-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.2px;
+}
+.Task__container-one .customerContainer .customer__information-right-rate-images img {
+  width: 8.64px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.Task__container-one .customerContainer .customer__information-right-rate-images p {
+  /* Small Text */
+  color: rgb(149, 151, 158);
+  font-family: SF Pro Display;
+  font-size: 11.2px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.timeAndWatches {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2px;
+  margin-top: 9.6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.timeAndWatches .time {
+  /* Small Text */
+  color: rgb(149, 151, 158);
+  font-family: SF Pro Display;
+  font-size: 11.2px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  text-align: center;
+}
+.timeAndWatches .watches {
+  /* Small Text */
+  color: rgb(149, 151, 158);
+  font-family: SF Pro Display;
+  font-size: 11.2px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  text-align: center;
+}
+
+.similarAds {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 28.8px;
+  gap: 12.16px;
+}
+.similarAds h2 {
+  /* TON Price */
+  color: rgb(255, 255, 255);
+  font-family: "SF Compact Rounded";
+  font-size: 22.4px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.similarAds .similarAds__contaier {
+  margin-top: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16.6845px;
+}
+
+.page-enter {
+  opacity: 0;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: opacity 300ms, -webkit-transform 300ms;
+  transition: opacity 300ms, -webkit-transform 300ms;
+  transition: opacity 300ms, transform 300ms;
+  transition: opacity 300ms, transform 300ms, -webkit-transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: opacity 300ms, -webkit-transform 300ms;
+  transition: opacity 300ms, -webkit-transform 300ms;
+  transition: opacity 300ms, transform 300ms;
+  transition: opacity 300ms, transform 300ms, -webkit-transform 300ms;
+}
+
+.modal {
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
+}
+
+.modal-enter {
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.modal-enter-active {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
+}
+
+.modal-exit {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.modal-exit-active {
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
+}
+
+.modal-two {
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
+}
+
+.modal-two-enter {
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.modal-two-enter-active {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
+}
+
+.modal-two-exit {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.modal-two-exit-active {
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: 0.32s;
+  transition: 0.32s;
+}
+
+.sub__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.SubBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+  border-radius: 9.6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Cards */
+  background: rgb(32, 48, 63);
+}
+.SubBlock img {
+  width: 6.4px;
+  height: 10.56px;
+}
+
+.subCategory__oneInput {
+  margin-top: 17.6px;
+}
+
+.subCategory__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  background: rgb(24, 34, 45);
+  padding-left: 15.36px;
+  padding-right: 15.36px;
+  padding-top: 17.92px;
+}
+
+.arrowRight {
+  width: 6.4px;
+  height: 10.56px;
+}
+
+input {
+  background: none;
+  outline: none;
+}
+
+.profile__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 22.4px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.profile__container .pofile__icon {
+  width: 90.24px;
+  height: 90.24px;
+}
+.profile__container .urName {
+  color: rgb(255, 255, 255);
+  font-family: "SF Compact Rounded";
+  font-size: 22.4px;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  height: 20px;
+}
+.profile__container .change__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.profile__container .pencel {
+  -webkit-transform: translateY(1.5px);
+      -ms-transform: translateY(1.5px);
+          transform: translateY(1.5px);
+  width: 12.8px;
+}
+.profile__container .change {
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile__container .profile__options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+  border-radius: 9.6px;
+}
+.profile__container .option__balance {
+  border-top-left-radius: 9.6px;
+  border-top-right-radius: 9.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 17.28px;
+  padding-right: 15.36px;
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  /* Cards */
+  background: rgb(32, 48, 63);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid rgb(60, 61, 63);
+}
+.profile__container .option__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 19.2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.profile__container .option__left p {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display 400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1%;
+  text-align: left;
+}
+.profile__container .option__balance-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.profile__container .tonPrice {
+  font-family: "SF Compact Rounded";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1%;
+  text-align: right;
+  margin-right: 5px;
+}
+.profile__container .Dymond {
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+}
+.profile__container .option__money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3px;
+  -webkit-box-align: self-start;
+      -ms-flex-align: self-start;
+          align-items: self-start;
+}
+.profile__container .arrowRight {
+  width: 6.4px;
+  height: 11.2px;
+}
+.profile__container .option {
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: rgb(32, 48, 63);
+  border-bottom: 1px solid rgb(60, 61, 63);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.profile__container .option:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 9.6px;
+  border-bottom-right-radius: 9.6px;
+}
+.profile__container .profile__about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.profile__container .profile__about-me p {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display 600";
+  font-size: 19.8912px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.profile__container .profile__about-me .ur__town {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+.profile__container .profile__about-me .ur__town p {
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display 400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 1%;
+  text-align: left;
+}
+.profile__container .profile__works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.profile__container .profile__works p:nth-child(1) {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display 600";
+  font-size: 19.8912px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 2px;
+}
+.profile__container .profile__works p:nth-child(2) {
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display 400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1%;
+  text-align: left;
+}
+.profile__container .profile__works p:nth-child(3) {
+  color: rgb(149, 151, 158);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.profile__container .profile__veryfication {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 21.44px;
+  gap: 5px;
+  margin-top: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px;
+}
+.profile__container .profile__veryfication .veryfication {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display 600";
+  font-size: 19.8912px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.profile__container .profile__veryfication .veryfication__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10.24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(99, 98, 103);
+  border-radius: 11.2px;
+  padding: 16px;
+}
+.profile__container .profile__veryfication .veryfication__image {
+  border-radius: 19.2px;
+  background: rgb(61, 168, 248);
+}
+.profile__container .profile__veryfication .veryfication__block-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3.52px;
+}
+.profile__container .profile__veryfication .veryfication__block-text p:nth-child(1) {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display";
+  font-size: 16.96px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.profile__container .profile__veryfication .veryfication__block-text p:nth-child(2) {
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.profile__container .profile__icon {
+  width: 90.24px;
+  height: 90.24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile__container .orangeWallet {
+  width: 28.8px;
+}
+.profile__container .Okey {
+  border-radius: 50%;
+  background: rgb(61, 168, 248);
+  min-width: 38.4px;
+  height: 38.4px;
+  position: relative;
+}
+.profile__container .Subtract {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform: translateX(-50%) translateY(50%);
+      -ms-transform: translateX(-50%) translateY(50%);
+          transform: translateX(-50%) translateY(50%);
+  min-width: 21.12px;
+  max-height: 21.12px;
+}
+.profile__container .greyArrow {
+  width: 6.5024px;
+  height: 11.2992px;
+}
+
+.all__balance {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.balance__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 22.4px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.balance__container .ur__schet {
+  /* Bold */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 5px;
+}
+.balance__container .ur__schet p {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display 600";
+  font-size: 16.96px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.balance__container .ur__schet .info {
+  width: 14.1856px;
+  height: 14.1856px;
+}
+.balance__container .real__balance-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 28.8px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.balance__container .real__balance-block-up {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 5px;
+}
+.balance__container .real__balance-block-up p {
+  color: rgb(255, 255, 255);
+  font-family: "SF Compact Rounded";
+  font-size: 57.2064px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 4%;
+  text-align: left;
+}
+.balance__container .real__balance-block-up p:nth-child(2) {
+  color: rgb(218, 245, 254);
+  font-family: "SF Compact Rounded 600";
+  font-size: 40.32px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1%;
+  text-align: left;
+}
+.balance__container .real__balance-block-up .blue__dymond {
+  background: rgb(0, 152, 234);
+  position: relative;
+  width: 40.96px;
+  height: 40.96px;
+  border-radius: 50%;
+  -webkit-transform: translateY(5px);
+      -ms-transform: translateY(5px);
+          transform: translateY(5px);
+}
+.balance__container .real__balance-block-up .blue__dymond img {
+  width: 20.7104px;
+  height: 20.7104px;
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform: translateX(-50%) translateY(50%);
+      -ms-transform: translateX(-50%) translateY(50%);
+          transform: translateX(-50%) translateY(50%);
+}
+.balance__container .real__balance-block-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 5px;
+}
+.balance__container .real__balance-block-down p {
+  /* Description */
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display 400";
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+.balance__container .balance__interesting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 7.68px;
+  margin-top: 25px;
+}
+.balance__container .balance__interesting-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7.68px;
+}
+.balance__container .top-block {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-top: 14.72px;
+  padding-bottom: 14.72px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 6px;
+  border-radius: 11.2px;
+  background: rgb(32, 48, 63);
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.balance__container .top-block p {
+  /* Bold */
+  color: rgb(46, 165, 255);
+  font-family: "SF Pro Display 600";
+  font-size: 16.96px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.balance__container .top-block img {
+  width: 17.92px;
+  height: 17.92px;
+}
+.balance__container .choice-of-get-more-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14.72px 15.68px;
+  align-items: center;
+  border-radius: 9.6px;
+  /* Cards */
+  background: rgb(32, 48, 63);
+}
+.balance__container .choice-of-get-more-block img {
+  width: 15.04px;
+  height: 11.84px;
+}
+.balance__container .choice-of-get-more-block p {
+  /* Camption Regular */
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display 400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1%;
+  text-align: left;
+  margin-left: 7px;
+}
+.balance__container .choice-of-get-more-block .block-of-choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  gap: 7px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.balance__container .choice-of-get-more-block .block-of-choice p {
+  color: rgb(46, 165, 255);
+  font-family: "SF Pro Display 400";
+  font-size: 16.64px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1%;
+  text-align: right;
+}
+.balance__container .choice-of-get-more-block .block-of-choice img {
+  width: 9.8px;
+  height: 11.62px;
+}
+
+.transaction {
+  margin-bottom: 5px;
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 14px;
+  padding-right: 14px;
+  gap: 13.76px;
+  margin-top: auto;
+  border-radius: 9.6px;
+  background: rgb(32, 48, 63);
+  padding-bottom: 81.6px;
+}
+.transaction p {
+  /* Default text CAPS */
+  color: rgb(132, 137, 143);
+  font-family: "SF Pro Display";
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 16.64px;
+}
+.transaction .grey__block {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.transaction .transaction__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 28px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.transaction .transaction__main .common {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.transaction .transaction__main .common .how__many {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+.transaction .transaction__main .common .how__many .how__many-text:nth-child(1), .transaction .transaction__main .common .how__many .how__many-text:nth-child(2) {
+  color: rgb(48, 209, 88);
+  font-family: "SF Pro Display";
+  font-size: 16.96px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-top: 0;
+}
+.transaction .transaction__main .common p {
+  margin-top: 0;
+}
+.transaction .transaction__main .common__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.transaction .transaction__main .common__block .download {
+  position: relative;
+  border-radius: 50%;
+  min-width: 38.4px;
+  height: 38.4px;
+  background: rgb(61, 168, 248);
+}
+.transaction .transaction__main .common__block .common-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2px;
+  margin-left: 9.92px;
+}
+.transaction .transaction__main .common__block .common-text p:nth-child(1) {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display";
+  font-size: 16.96px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 0;
+  text-transform: none;
+}
+.transaction .transaction__main .common__block .common-text .date-text {
+  text-transform: none;
+  color: rgb(181, 206, 217);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 0;
+}
+.transaction .transaction__main .common__block .common-color-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
+}
+.transaction .transaction__main .common__block .common-color-text p:nth-child(1) {
+  color: rgb(48, 209, 88);
+  font-family: "SF Pro Display";
+  font-size: 16.96px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.transaction .transaction__main .common__block .common-color-text p:nth-child(2) {
+  /* Default text */
+  color: rgb(48, 209, 88);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: right;
+  text-transform: none;
+}
+.transaction .download-image {
+  width: 24.32px;
+  height: 24.32px;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform: translateX(-50%) translateY(50%);
+      -ms-transform: translateX(-50%) translateY(50%);
+          transform: translateX(-50%) translateY(50%);
+}
+.transaction .transtion__main-wrapper {
+  height: 38.8px;
+}
+.transaction .stages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 8px;
+  border: 1.57px solid rgba(224, 76, 76, 0.04);
+  background: rgba(118, 118, 128, 0.24);
+  position: relative;
+}
+.transaction .stages .stage {
+  padding: 8px 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 10;
+}
+.transaction .stages .stage p {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Text 600";
+  font-size: 12.8px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  margin-top: 0px;
+}
+.transaction .grey__block {
+  position: absolute;
+  width: 33.33%;
+  border-radius: 8px;
+  background: rgba(118, 118, 128, 0.24);
+  border-radius: 8px;
+  background: rgb(99, 99, 102);
+  left: 0;
+  height: 100%;
+  bottom: 0;
+}
+
+s * {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  overflow: auto;
+}
+
+body {
+  position: relative;
+}
+
+.MainContainer {
+  background: rgb(24, 34, 45);
+  max-width: 430px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

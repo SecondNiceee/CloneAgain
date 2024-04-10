@@ -1,0 +1,285 @@
+ $width : 0.32;
+$height : 0.32;
+
+input {
+    background: none;
+    outline:none;}
+.profile__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(70px* $width);
+    margin-left: 14px;
+    margin-right: 14px;
+    .pofile__icon{
+        width: calc(282px * $width);
+        height: calc(282px * $width)
+    }
+    .urName{
+        color: rgb(255, 255, 255);
+        font-family: "SF Compact Rounded";
+        font-size: calc(70px * $width);
+        font-weight: 500;
+        line-height: normal;
+        line-height: 20px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        text-align: center;
+        height: 20px;
+    }
+    .change__block{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 4px;
+        align-items: center;
+
+    }
+    .pencel{
+        transform: translateY(1.5px);
+        width: calc(40px* 0.32)
+    }
+    .change{
+        color: rgb(218, 245, 254);
+        font-family: "SF Pro Display";
+        font-size: calc(44px * $width);
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0%;
+        text-align: right;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .profile__options{
+        display: flex;
+        flex-direction: column;
+        margin-top: calc(25px);
+        border-radius: calc(30px * $width);
+
+
+    }
+    .option__balance{
+            border-top-left-radius: calc(30px * $width) ;
+            border-top-right-radius: calc(30px * $width)  ;
+            display: flex;
+            padding-left: calc(54px * $width);
+            padding-right: calc(48px*$width);
+
+            padding-top: 6.5px;
+            padding-bottom: 6.5px;
+            /* Cards */
+            background: rgb(32, 48, 63);
+            align-items: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-bottom: 1px solid rgb(60, 61, 63);
+
+    }
+    .option__left{
+        display: flex;
+        gap: calc(60px *$width);
+        align-items: center;
+        p{
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display 400";
+            font-size:  calc(50px * $width);
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1%;
+            text-align: left;
+        }
+    }
+    .option__balance-block{
+        display: flex;
+        margin-left: auto;
+        margin-right: 15px;
+        align-items: center;
+    }
+    .tonPrice{
+        font-family: "SF Compact Rounded";
+        font-size: calc(50px * $width);
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1%;
+        text-align: right;
+        margin-right: 5px;
+    }
+    .Dymond{
+        width: calc(50px * $width);
+        height: calc(50px * $width);
+        margin-right: 3px;
+    }
+    .option__money{
+            display: flex;
+            gap: 3px;
+            align-items: self-start;
+    }
+    .arrowRight{
+        width: calc(20px * $width);
+        height: calc(35px * $width);
+    }
+    .option{
+        padding-top: calc(6.5px);
+        padding-bottom: calc(6.5px);
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background: rgb(32, 48, 63);
+        border-bottom: 1px solid rgb(60, 61, 63);;
+        padding-left: 10px;
+        padding-right: 10px;
+        &:last-child{
+            border-bottom: none;
+            border-bottom-left-radius: calc(30px * $width) ;
+            border-bottom-right-radius: calc(30px * $width) ;
+        }
+    }
+    .profile__about-me{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 25px;
+        margin-left: 10px;
+        p{
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display 600";
+            font-size: calc(62.16px * $width);
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .ur__town{
+            display: flex;
+            gap: 4px;
+        }
+        .ur__town p{
+            color: rgb(218, 245, 254);
+            font-family: "SF Pro Display 400";
+            font-size: calc(50px * $width) ;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 1%;
+            text-align: left;
+        }
+    }
+    .profile__works{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        margin-left: 10px;
+        p:nth-child(1){
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display 600";
+            font-size: calc(62.16px * $width) ;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-bottom: 2px;
+        }
+        p:nth-child(2){
+            color: rgb(218, 245, 254);
+            font-family: "SF Pro Display 400";
+            font-size: calc(50px * $width);
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1%;
+            text-align: left;
+            // margin-bottom: calc(5px*$width);
+        }
+        p:nth-child(3){
+            color: rgb(149, 151, 158);
+            font-family: "SF Pro Display";
+            font-size: calc(44px * $width) ;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        
+    }
+    .profile__veryfication{
+        display: flex;
+        margin-bottom: calc(67px * $width);
+        gap: 5px;
+        margin-top: 25px;
+        flex-direction: column;
+        margin-left: 10px;
+
+        .veryfication{
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display 600";
+            font-size: calc(62.16px * $width);
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .veryfication__block{
+            display: flex   ;
+            gap: calc(32px * $width);
+            align-items: center;
+            box-sizing: border-box;
+            border: 1px solid rgb(99, 98, 103);
+            border-radius:  calc(35px * $width);
+            padding: calc(50px * $width);
+        }
+        .veryfication__image{
+            border-radius: calc(60px * $width);
+            background: rgb(61, 168, 248);
+        }
+        .veryfication__block-text{
+            display: flex;
+            flex-direction: column;
+            gap: calc(11px* $width);
+            p:nth-child(1){
+                color: rgb(255, 255, 255);
+                font-family: "SF Pro Display";
+                font-size: calc(53px * $width);
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            p:nth-child(2){
+                color: rgb(218, 245, 254);
+                font-family: "SF Pro Display";
+                font-size: calc(44px * $width);
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+    }
+    .profile__icon{
+        width: calc(282px * $width);
+        height: calc(282px * $width);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .orangeWallet{
+        width: calc(90px * $width);
+    }
+    .Okey{
+        border-radius: 50%;
+        background: rgb(61, 168, 248);
+        min-width: calc(120px * $width);
+        height: calc(120px * $width);
+        position: relative;
+    }
+    .Subtract{
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translateX(-50%) translateY(50%) ;
+        min-width: calc(66px * $width);
+        max-height: calc(66px * $width);
+    }
+    .greyArrow{
+        width: calc(20.32px * $width);
+        height: calc(35.31px * $width);
+    }
+}

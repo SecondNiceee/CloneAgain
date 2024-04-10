@@ -1,0 +1,19 @@
+.TaskName{
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(90px * 0.32);
+    gap: calc(18px * 0.32);
+}
+.TaskName p{
+    margin-left: calc(49px * 0.32);
+}
+.TaskName p:last-child {
+    /* Description */
+    color: rgb(218, 245, 254);
+    font-family: "SF Pro Display 400";
+    font-size: calc(40px * 0.325 * 1.075 );
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2%;
+    text-align: left;
+}

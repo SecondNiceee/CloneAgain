@@ -1,0 +1,28 @@
+.TextArea{
+    /* Camption Regular */
+    color: white;
+    font-family: "SF Pro Display 400";
+    font-size: calc(46px *  0.325 * 1.04);
+    font-weight: 400;
+    line-height: normal;
+    padding: calc(36px * .367) calc(50px * 0.325);
+    letter-spacing: 1%;
+    text-align: left;
+    border-radius:calc(30px * 0.32) ;
+
+/* Cards */
+    background: rgb(32, 48, 63);
+}
+::-webkit-textarea-placeholder {
+    color: rgb(218, 245, 254);
+    font-family: "SF Pro Display 400";
+    font-size: calc(46px *  0.325 * 1.04);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1%;
+    text-align: left;
+}
+textarea {
+    border: none;
+    outline: none;
+}

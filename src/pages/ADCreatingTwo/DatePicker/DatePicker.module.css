@@ -1,0 +1,5 @@
+.DatePicker{
+    display: flex;
+    flex-direction: column;
+    gap: calc(29px * 0.32);
+}

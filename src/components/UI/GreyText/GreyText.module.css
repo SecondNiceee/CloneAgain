@@ -1,0 +1,11 @@
+.GreyText{
+    /* Default text CAPS */
+    color: rgb(132, 137, 143);
+    font-family: "SF Pro Display 400";
+    font-size: calc(39px * 0.325 * 1.075);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2%;
+    text-align: left;
+    text-transform: uppercase;
+}

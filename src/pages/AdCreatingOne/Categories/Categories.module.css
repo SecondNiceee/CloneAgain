@@ -1,0 +1,82 @@
+.Categories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: calc(36px * 0.32) calc(49px * 0.32);
+    border-radius: calc(30px * 0.32);
+    background: rgb(32, 48, 63);
+    gap: calc(74px * 0.32);
+    position: relative;
+}
+.Categories__block{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Categories__block p{
+    /* Camption Regular */
+    color: rgb(255, 255, 255);
+    font-family: "SF Pro Display 400";
+    font-size: calc(46px *  0.325 * 1.04);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1%;
+    text-align: left;
+}
+.Categories__block  .Category__link{
+    color: rgb(46, 165, 255);
+    font-family: "SF Pro Display 400";
+    font-size: calc(46px* 0.325* 1.04);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1%;
+    text-align: right;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.Categories__block  .Category__link::after{
+    content:'';
+    background-image: url(../../../images/icons/UpDown.svg);
+    display: block;
+    object-fit: cover;
+    background-size: cover;
+    width: calc(28px * 0.39);
+    height: calc(33px * 0.39);
+    margin-top: 1px;
+}
+
+.Categories__block  .quest{
+    color: rgb(46, 165, 255);
+    font-family: "SF Pro Display 400";
+    font-size: calc(46px* 0.325* 1.04);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1%;
+    text-align: right;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.Categories__block  .quest::after{
+    content:'?';
+
+    display: block;
+    object-fit: cover;
+    background-size: cover;
+    width: calc(28px * 0.41);
+    height: calc(33px * 0.41);
+
+    margin-bottom: 5px;
+    transform: translateY(-1px);
+}
+.line{
+    position: absolute;
+    background: rgb(60, 61, 63);
+    width: 95%;
+    height: 0.5px;
+    right:   0;
+    top: calc(50% - 1px);
+}

@@ -1,0 +1,32 @@
+.root {
+
+}
+.Cap{
+    display: flex;
+    justify-content: space-between;
+}
+.CapStepText{
+    /* Bold */
+    color: rgb(149, 151, 158);
+    font-family: "SF Pro Display 600";
+    font-size: calc(54px * 0.3255) ;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0%;
+    text-align: left;
+    letter-spacing: 2px;
+
+}
+.Cap p:nth-child(2){
+    /* Bold */
+    color:rgb(218, 245, 254);
+    font-family: "SF Pro Display 600";
+    font-size: calc(55.5px * 0.325 / 1.04) ;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0%;
+    text-align: left;
+    span{
+        color: rgb(149, 151, 158)
+    };
+}

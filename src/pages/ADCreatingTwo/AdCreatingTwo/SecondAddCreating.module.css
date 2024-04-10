@@ -1,0 +1,23 @@
+.SecondAddCreating{
+    display: flex;
+    flex-direction: column;
+}
+.Cap {
+    margin-top: calc(70px * 0.32);
+}
+.Budget{
+    margin-top: calc(55px * 0.32);
+}
+.DatePicker{
+    margin-top: calc(86px * 0.32);
+}
+.CapText{
+    /* Bold */
+    color: rgb(255, 255, 255);
+    font-family: "SF Pro Display";
+    font-size: calc(53px * 0.325) ;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0%;
+    text-align: left;
+}

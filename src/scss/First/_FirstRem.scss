@@ -1,0 +1,332 @@
+.normail{
+    align-self: center;
+    line-height: 0;
+    margin-top: 4px;
+}
+.First {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-x: hidden;
+  padding-left: calc(48px * (430/1180));
+  padding-right: calc(48px * (430/1180));
+  width: 100%;
+  height: 100%;
+}
+.EmptyText {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display";
+  font-size: calc(100px * $width);
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: calc(730px * $width);
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.FirstTop {
+  margin-top: calc(55px * $height);
+  display: flex;
+  gap: calc(30px * (430 / 1180));
+  align-items: center;
+  img {
+    width: calc(85px * $width);
+    height: calc(85px * $width);
+  }
+  .Burger__wrapper{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -10px;
+    left: -10px;
+    z-index: 12;
+  }
+}
+
+.FirstMain {
+  margin-top: calc(55px * $height);
+  display: flex;
+  flex-direction: column;
+  gap: calc(35px * $height);
+}
+
+.First__block {
+  display: flex;
+  flex-direction: column;
+  padding: calc(57px * $height) calc(57px * $height) calc(39px * $height) calc(52px * $height);
+  border-radius: calc(30px * $width);
+  background: rgb(32, 48, 63);
+    .FirstMain__top {
+    display: flex;
+        img {
+      margin-right: calc(30px * $width);
+        }
+        p {
+      /* Default text */
+      color: rgb(255, 255, 255);
+      font-family: "SF Pro Display";
+      font-size: calc(44px * $width);
+      font-weight: 500;
+      line-height: calc(53px * $width);
+      letter-spacing: 0%;
+      text-align: left;
+      max-width: calc(730px * $width);
+      margin-right: auto;
+        }
+  }
+  .circle{
+    min-width: calc(84px * $width);
+    max-height: calc(84px * $width);
+    border-radius: 50%;
+    background: rgb(34, 61, 82);
+    position: relative;
+    img{
+        width: calc(59px * $width);
+        height: calc(59px * $width);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+  }
+  .FirstMain__middle{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+    p{
+    color: rgb(149, 151, 158);
+    font-family: "SF Pro Display";
+    font-size: calc(35px * $width);
+    font-weight: 500;
+    line-height: (37.61px*$width);
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(149, 151, 158);
+        }
+    }
+    .FirstMain__bottom{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .FirstMain__bottom-left{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        p{
+                /* Default text */
+            color: rgb(218, 245, 254);
+            font-family: "SF Pro Display";
+            font-size: calc(44px * $width) ;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+    .FirstMain__price-up{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        h3{
+            color: rgb(255, 255, 255);
+            font-family: "SF Compact Rounded";
+            font-size: calc(70px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        img{
+        }
+    }
+    .FirstMain__bottom-right{
+        display: flex;
+        gap: calc(23px * $width);
+        .tie{
+            align-self: center;
+            line-height: 0;
+        }
+    }
+}
+.FirstMenu{
+    background-color: rgba(24, 34, 45, 1.00);
+    z-index: 10;
+    position: absolute;
+    height: 100%;
+
+    left: 0px;
+    bottom: 0;
+    width: calc(904px * $width);
+    padding: calc(81px * $height) calc(48px * $width);
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    .icon{
+        width: calc(160px * $height);
+        height: calc(160px * $height);
+    }
+    &.hidden{
+        transform: translateX(-100%);
+    }
+    .FirstMenu__top{
+        display: flex;
+        align-items: center;
+        gap: calc(40px * $width);
+    }
+    .FirstMenu__top-right{
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+    .MenuName{
+        /* TON Price */
+        color: rgb(255, 255, 255);
+        font-family: "SF Compact Rounded";
+        font-size: calc(70px * $width);
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .MenuProfile{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        p{
+            color: rgb(218, 245, 254);
+            font-family: "SF Pro Display";
+            font-size: calc(44px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+    .MenuPrice{
+        margin-top: calc(90px * $height);
+        border-radius: calc(30px * $width);
+        background: rgb(32, 48, 63);
+        padding-top: calc(25px *  $height);
+        padding-left: calc(49px * $width);
+        padding-right: calc(49px * $width);
+        padding-bottom: calc(25px *  $height);
+        display: flex;
+        gap: 7px;
+        align-items: center;
+        align-self: flex-start;
+        position: relative;
+        .upArr{
+            position: absolute;
+            top: calc(18px * $height);
+            right: calc(18px * $width);
+            width: calc(14px * $width);
+            height: calc(14px * $width);
+        }
+        .dymond{
+            margin-top: 1px;
+        }
+    }
+    .MenuTextPrice{
+        /* TON Price */
+        color: rgb(255, 255, 255);
+        font-family: "SF Compact Rounded";
+        font-size: calc(70px * $width);
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .MenuTextRublePrice{
+        /* Default text */
+        color: rgb(218, 245, 254);
+        font-family: "SF Pro Display";
+        font-size: calc(44px * $width);
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .MenuList{
+        display: flex;
+        flex-direction: column;
+        gap: calc(60px * $height);
+        margin-top: calc(90px * $height);
+        /* Menu Text */
+        a{
+            color: rgb(149, 151, 158);
+            font-family: "SF Pro Display";
+            font-size: calc(48px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+            transition: 0.32s;
+            &:hover{
+                color: rgb(255, 255, 255)
+            }
+        }
+    }
+    .Menu__Helps{
+        margin-top: calc(241px * $height);
+        display: flex;
+        gap: 5px;
+        img{
+            width: calc(58px * $width);
+        }
+        a{
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display";
+            font-size: calc(48px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        
+    }
+    .close {
+        cursor: pointer;
+        position: absolute;
+        width: calc(48px * $width);
+        height: calc(48px * $width);
+        right: calc(48px * $width);
+        top: calc(79px * $height);
+    }
+    .close span:nth-child(1){
+        position: absolute;
+        width: calc(62px * $width );
+        height: calc(6px * $height);
+        background-color: white;
+        transform: rotate(45.00deg);
+        border-radius: 3px;
+        background: rgb(255, 255, 255);
+    }
+    .close span:nth-child(2){
+        position: absolute;
+        width: calc(62px * $width );
+        height: calc(6px * $height);
+        background-color: white;
+        transform: rotate(-45.00deg);
+        border-radius: 3px;
+        background: rgb(255, 255, 255);
+    }
+
+    .close__wrapper{
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        top: -20px;
+        left: -14px;
+        z-index: 20;
+    }
+
+
+}

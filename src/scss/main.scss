@@ -1,0 +1,29 @@
+@import './Values/reset';
+@import './Values/Values.scss';
+@import './First/_FirstRem.scss';
+@import './First/_TaskDetails.scss';
+@import './AdCreating.scss';
+@import './Profile/Profile.scss';
+@import './Balance.scss';s
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    // overflow: hidden;
+  }
+  html, body {
+    overflow: auto;
+  }
+  body {
+    position: relative
+  }
+.MainContainer{
+    background: rgb(24, 34, 45);
+    max-width: 430px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow-x: hidden;
+
+}
+*::-webkit-scrollbar {display:none;}

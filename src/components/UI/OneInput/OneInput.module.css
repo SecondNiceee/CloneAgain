@@ -1,0 +1,20 @@
+.OneInput{
+    max-width: 100%;
+    flex-grow: 1   ;
+    border-radius: 47.5px;
+    background-color: rgb(46, 55, 64);
+    padding-left: calc(47px * 0.32);
+    padding-top: calc(24px * 0.32);
+    padding-bottom: calc(24px * 0.32);
+    border: none;
+    color : white;
+    font-size: calc(44px * (430/1180)) ;
+    font-family: "SF Pro Display";
+    max-height: calc(95px * 0.32);
+}
+.OneInput::placeholder{
+    color : rgba(149, 151, 158 , 0.5);
+    font-size: calc(44px * (430/1180)) ;
+    font-family: "SF Pro Display";
+    max-height: calc(95px * 0.32);
+}

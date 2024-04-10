@@ -1,0 +1,66 @@
+.BudgetInput{
+    width: calc(1074px * 0.32);
+    height: calc(290px * 0.32);
+    border-radius: calc(30px * 0.32);
+    background: rgb(32, 48, 63);
+    position: relative;
+    padding-left: calc(49px * 0.32);
+    padding-right: calc(49px * 0.32);
+    padding-bottom: calc(67px * 0.32);
+    display:flex;
+    align-items: center;
+}
+.BudgetInput[data-value]{
+    position: relative;
+}
+.BudgetInput[data-value]::after{
+   content: attr(data-value) "%";
+}
+.input{
+    min-width: calc(1ch + 10px);
+    color: rgb(255, 255, 255);
+    font-family: "SF Compact Rounded";
+    font-size: calc(178px * 0.325) ;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 4%;
+    text-align: left;
+    background-color: transparent;
+}
+.budgetText{
+    color: rgb(218, 245, 254);
+    font-family: "SF Compact Rounded";
+    font-size: calc(126px * 0.325);
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-left: calc(23px * 0.325);
+    margin-top: 10px;
+}
+input:focus {outline: none;}
+.bottomTextContainer{
+    display: flex;
+    gap: calc(20px * 0.32);
+    position: absolute;
+    bottom: calc(33px * 0.32);
+    left: calc(49px*0.32);
+    align-items: center;
+}
+.bottomTextContainer p{
+    /* Description */
+    color: rgb(255, 255, 255);
+    font-family: "SF Pro Display";
+    font-size: calc(40px*0.32);
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2%;
+    text-align: left;
+}
+.bottomTextContainer img{
+    width: calc(34px * 0.32);
+    height: calc(34px*0.32);
+}
+.text{
+    word-spacing: 2px;
+}

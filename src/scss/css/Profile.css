@@ -1,0 +1,343 @@
+input {
+  background: none;
+  outline: none;
+}
+
+.profile__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 22.4px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.profile__container .pofile__icon {
+  width: 90.24px;
+  height: 90.24px;
+}
+.profile__container .urName {
+  color: rgb(255, 255, 255);
+  font-family: "SF Compact Rounded";
+  font-size: 22.4px;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  height: 20px;
+}
+.profile__container .change__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.profile__container .pencel {
+  -webkit-transform: translateY(1.5px);
+      -ms-transform: translateY(1.5px);
+          transform: translateY(1.5px);
+  width: 12.8px;
+}
+.profile__container .change {
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile__container .profile__options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+  border-radius: 9.6px;
+}
+.profile__container .option__balance {
+  border-top-left-radius: 9.6px;
+  border-top-right-radius: 9.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 17.28px;
+  padding-right: 15.36px;
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  /* Cards */
+  background: rgb(32, 48, 63);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid rgb(60, 61, 63);
+}
+.profile__container .option__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 19.2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.profile__container .option__left p {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display 400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1%;
+  text-align: left;
+}
+.profile__container .option__balance-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.profile__container .tonPrice {
+  font-family: "SF Compact Rounded";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1%;
+  text-align: right;
+  margin-right: 5px;
+}
+.profile__container .Dymond {
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+}
+.profile__container .option__money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3px;
+  -webkit-box-align: self-start;
+      -ms-flex-align: self-start;
+          align-items: self-start;
+}
+.profile__container .arrowRight {
+  width: 6.4px;
+  height: 11.2px;
+}
+.profile__container .option {
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: rgb(32, 48, 63);
+  border-bottom: 1px solid rgb(60, 61, 63);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.profile__container .option:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 9.6px;
+  border-bottom-right-radius: 9.6px;
+}
+.profile__container .profile__about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.profile__container .profile__about-me p {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display 600";
+  font-size: 19.8912px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.profile__container .profile__about-me .ur__town {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+.profile__container .profile__about-me .ur__town p {
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display 400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 1%;
+  text-align: left;
+}
+.profile__container .profile__works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.profile__container .profile__works p:nth-child(1) {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display 600";
+  font-size: 19.8912px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 2px;
+}
+.profile__container .profile__works p:nth-child(2) {
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display 400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1%;
+  text-align: left;
+}
+.profile__container .profile__works p:nth-child(3) {
+  color: rgb(149, 151, 158);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.profile__container .profile__veryfication {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 21.44px;
+  gap: 5px;
+  margin-top: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px;
+}
+.profile__container .profile__veryfication .veryfication {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display 600";
+  font-size: 19.8912px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.profile__container .profile__veryfication .veryfication__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10.24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(99, 98, 103);
+  border-radius: 11.2px;
+  padding: 16px;
+}
+.profile__container .profile__veryfication .veryfication__image {
+  border-radius: 19.2px;
+  background: rgb(61, 168, 248);
+}
+.profile__container .profile__veryfication .veryfication__block-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3.52px;
+}
+.profile__container .profile__veryfication .veryfication__block-text p:nth-child(1) {
+  color: rgb(255, 255, 255);
+  font-family: "SF Pro Display";
+  font-size: 16.96px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.profile__container .profile__veryfication .veryfication__block-text p:nth-child(2) {
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display";
+  font-size: 14.08px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.profile__container .profile__icon {
+  width: 90.24px;
+  height: 90.24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile__container .orangeWallet {
+  width: 28.8px;
+}
+.profile__container .Okey {
+  border-radius: 50%;
+  background: rgb(61, 168, 248);
+  min-width: 38.4px;
+  height: 38.4px;
+  position: relative;
+}
+.profile__container .Subtract {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform: translateX(-50%) translateY(50%);
+      -ms-transform: translateX(-50%) translateY(50%);
+          transform: translateX(-50%) translateY(50%);
+  min-width: 21.12px;
+  max-height: 21.12px;
+}
+.profile__container .greyArrow {
+  width: 6.5024px;
+  height: 11.2992px;
+}

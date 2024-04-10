@@ -1,0 +1,332 @@
+
+.TaskDetails{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgb(24, 34, 45);
+    padding: calc(56px * $height) calc( 48px * $width );
+    transition: 0.3s;
+    left: 0;
+    &.active{
+        left: 0%;
+    }
+}
+.TaskDetails.entering{
+    transform: translateX(100%);
+}
+.TaskDetails.entered{
+    transform: translateX(0%);
+}
+.TaskDetails.exiting{
+    transform: translateX(0%);
+}
+.TaskDetails.exited{
+    transform: translateX(100%);
+}
+.Task__container-one{
+    display: flex;
+    flex-direction: column;
+    gap: calc(24px * $height);
+    .FullDescription{
+        padding: calc(45px * $height) calc(52px * $width);
+        border-radius: 12px;
+        background: rgb(32, 48, 63);
+        display: flex;
+        flex-direction: column;
+        gap: calc(9px * $width);
+
+
+    }
+    .FullDescription-top{
+        display: flex;
+        gap: calc(16px * $width);
+        p{
+            /* Default text */
+            color: rgb(149, 151, 158);
+            font-family: "SF Pro Display";
+            font-size: calc(44px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        img{
+            width: calc(35px * $width);
+            align-self: center;
+        }
+    }
+    .FullDescriptionBottom{
+        /* Default text */
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display";
+            font-size: calc(44px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+    }
+    .TaskDetails-row{
+        display: flex;
+        gap: 24px;
+    }
+    .customerContainer{
+        padding: calc(45px * $height) calc(62px * $width) calc(45px * $height) calc(52px * $width);
+        display: flex;
+        flex-direction: column;
+        gap: calc(9px * $height);
+    }
+    .customer__information{
+        display: flex;
+        gap: calc(20px * $width);
+    }
+    .information-icon{
+        width: calc(120px * $width);
+        height: calc(120px * $width) ;
+    }
+    .customer__information-right{
+        display: flex;
+        gap: calc(11px * $width);
+        flex-direction: column;
+    }
+    .customer__information-right-name{
+        display: flex;
+        gap: calc(15px * $width);
+        p{
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display";
+            font-size: calc(44px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        img{
+            width: calc(46px * $width);
+            align-self: center;
+        }
+
+    }
+    .customer__information-right-rate{
+        display: flex;
+        gap: calc(17px * $width);
+    }
+    .customer__information-right-rate-images{
+        display: flex;
+        gap: calc(10px * $width);
+    }
+    .rate{
+        /* Small Text */
+        color: rgb(149, 151, 158);
+        font-family: "SF Pro Display";
+        font-size:calc(35px * $width)  35px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .StatusContainer{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        padding: calc(45px * $height) calc(53px * $width);
+        border-radius: 12px;
+        background: rgb(32, 48, 63);
+        p{
+            /* Default text */
+            color: rgb(149, 151, 158);
+            font-family: "SF Pro Display";
+            font-size: calc(44px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-bottom: calc(9px * $height);
+        }
+        .TrueActive{
+            /* Default text */
+            color: rgb(42, 207, 88);
+            font-family: SF Pro Display;
+            font-size: calc(44px * $width) ;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-bottom: calc(29px * $height);
+        }
+        a{
+            color: rgb(218, 245, 254);
+            font-family: "SF Pro Display";
+            font-size: calc(35px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+            text-decoration-line: underline;
+        }
+    }
+    .DeadlineContainer{
+        display: flex;
+        flex-direction: column;
+        gap: calc(9px * $height);
+        padding-top: calc(45px * $height) ;
+        padding-left: calc(52px * $width);
+        padding-bottom: calc(39px * $height);
+        flex-grow: 1;
+        border-radius: 12px;
+        background: rgb(32, 48, 63);
+        p:nth-child(1){
+            /* Default text */
+            color: rgb(149, 151, 158);
+            font-family: "SF Pro Display";
+            font-size: calc(44px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        p:nth-child(2){
+            /* Default text */
+            color: rgb(255, 255, 255);
+            font-family: "SF Pro Display";
+            font-size: calc(44px * $width);
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+    .TaskDetails-row{
+        display: flex;
+        gap: calc(24px * $width);
+        flex-grow: 1;
+    }
+    .customerContainer{
+        border-radius: 12px;
+        min-width: 60%;
+
+/* Cards */
+        background: rgb(32, 48, 63);
+        display: flex;
+        flex-direction: column;
+        gap: calc(9px * $height);
+        .customer__up{
+            @include greyText(44px)
+        }   
+        .information-icon{
+            width: calc(120px * $width);
+            height: calc(120px * $width);
+        }
+        .customer__information-right{
+            display: flex;
+            flex-direction: column;
+            gap: calc(6px * $height);
+        }
+        .customer__information-right-name{
+            margin-top: calc(12px * $width);
+            display: flex;
+            gap : calc(15px * $width)
+            p{
+                /* Default text */
+                color: rgb(255, 255, 255);
+                font-family: "SF Pro Display";
+                font-size: calc(44px * $width);
+                font-weight: 500;
+                line-height: 53px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            img{
+                width: calc(46px * $width);
+            }
+        }
+        .customer__information-right-rate{
+            display: flex;
+            gap: calc(17px * $width);
+        }
+        .customer__information-right-rate-images{
+            display: flex;
+            gap: calc(10px * $width);
+            img{
+                width: calc(27px * $width);
+                align-self: center
+            }
+            p{
+                @include greyText(35px);
+            }
+        }
+
+
+    }   
+
+}
+
+.timeAndWatches{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: calc(30px * $height);
+    margin-left: auto;
+    margin-right: auto;
+    .time{
+        @include greyText(35px);
+        text-align: center;
+
+    }
+    .watches{
+        @include greyText(35px);
+        text-align: center;
+    }
+
+}
+
+.similarAds{
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(90px * $height);
+    gap: calc(38px * $height);
+    h2{
+        /* TON Price */
+        color: rgb(255, 255, 255);
+        font-family: "SF Compact Rounded";
+        font-size: calc(70px * $width);
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .similarAds__contaier{
+        margin-top: 38px;
+        display: flex;
+        flex-direction: column;
+        gap: calc(35px * 0.4767);
+    }
+}
+// .page {
+//     position: absolute;
+//     left: 15px;
+//     right: 15px;
+//   }
+  
+  .page-enter {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  
+  .page-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .page-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .page-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
