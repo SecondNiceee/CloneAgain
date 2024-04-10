@@ -4,6 +4,7 @@
     width: 50.87px;
     height: 30.92px;
     position: relative;
+    transition: .3s;
 }
 .Switcher.active{
     background: rgb(45, 200, 83); 

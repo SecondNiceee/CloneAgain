@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import cl from './FileInput.module.css'
-import file  from '../../../images/icons/file.svg'
+import file  from '../../../images/icons/filr.svg'
 import trash from '../../../images/icons/trash.svg'
 const FileInput = ({className}) => {
     const [images , setImages] = useState([])
@@ -38,8 +38,9 @@ const FileInput = ({className}) => {
 
 
 
-
-                <img className={cl.fileImage} src={file} alt="" />
+                <div className={cl.fileImageContainer}>
+                    <img className={cl.fileImage} src={file} alt="" />
+                </div>
                 <p>Добавить фото</p>
             </label>
             </div>
