@@ -53,13 +53,13 @@
 .Categories__block  .quest{
     color: rgb(46, 165, 255);
     font-family: "SF Pro Display 400";
-    font-size: calc(46px* 0.325* 1.04);
+    font-size: 17.29px;
     font-weight: 400;
-    line-height: normal;
+    line-height: 18.26px;
     letter-spacing: 1%;
     text-align: right;
     display: flex;
-    gap: 3px;
+    gap: 7px;
     align-items: center;
 }
 /* .Categories__block  .quest::after{
