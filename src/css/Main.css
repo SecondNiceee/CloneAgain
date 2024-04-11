@@ -61,6 +61,9 @@
 .FirstTop img {
   width: 28.33px;
   height: 28.33px;
+  -webkit-transform: translateY(2.5px);
+      -ms-transform: translateY(2.5px);
+          transform: translateY(2.5px);
 }
 .FirstTop .Burger__wrapper {
   position: absolute;
@@ -105,6 +108,8 @@
 }
 .First__block .FirstMain__top img {
   margin-right: 10px;
+  width: 34px;
+  height: 34px;
 }
 .First__block .FirstMain__top p {
   /* Default text */
@@ -1654,19 +1659,19 @@ input {
   border-radius: 10px;
   /* Cards */
   background: rgb(32, 48, 63);
-  padding-bottom: 81.6px;
+  padding-bottom: 6px;
 }
 .transaction p {
   /* Default text CAPS */
   color: rgb(132, 137, 143);
-  font-family: "SF Pro Display";
-  font-size: 12.8px;
+  font-family: "SF Pro Display 400";
+  font-size: 13.33px;
   font-weight: 400;
-  line-height: normal;
+  line-height: 15.64px;
   letter-spacing: 2%;
   text-align: left;
   text-transform: uppercase;
-  margin-top: 16.64px;
+  margin-top: 65px;
 }
 .transaction .grey__block {
   -webkit-transition: 0.4s;

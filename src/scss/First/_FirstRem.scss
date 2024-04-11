@@ -37,6 +37,7 @@
   img {
     width: calc(28.33px);
     height: calc(28.33px);
+    transform: translateY(2.5px);
   }
   .Burger__wrapper{
     position: absolute;
@@ -68,6 +69,8 @@
     display: flex;
         img {
         margin-right: calc(10px);
+        width: 34px;
+        height: 34px;
         }
         p {
       /* Default text */
