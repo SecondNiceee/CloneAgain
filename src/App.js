@@ -86,7 +86,7 @@ function App() {
 
 
       return (
-        <div className="MainContainer" >
+        <div style={isMenuActive ? {position : 'fixed'} : {}} className="MainContainer" >
           {/* <Routes>
               <Route path="/" element = {<FirstMenu isMenuActive={isMenuActive} setMenuActive={setMenuActive} />}>
                 <Route path="/"  element = {<First setMenuActive={setMenuActive} />}  />
@@ -99,12 +99,12 @@ function App() {
 
           {/* <AdCreatingTwo taskInformation={taskInformation} setTaskInformation={setTaskInformation} tonConstant = {tonConstant} />
           <AdCreatingThree taskInformation={taskInformation} setTaskInformation={setTaskInformation} /> */}
-{/* 
-          <FirstMenu menuRef = {menuRef} isMenuActive={isMenuActive} setMenuActive={setMenuActive}  />
-          <First setMenuActive={setMenuActive } isMenuActive={isMenuActive} /> */}
 
+          <FirstMenu menuRef = {menuRef} isMenuActive={isMenuActive} setMenuActive={setMenuActive}  />
+          <First setMenuActive={setMenuActive } isMenuActive={isMenuActive} />
+{/* 
           <FirstMenu isMenuActive={isMenuActive} setMenuActive={setMenuActive} />
-          <Profile setMenuActive = {setMenuActive} isMenuActive = {isMenuActive} />
+          <Profile setMenuActive = {setMenuActive} isMenuActive = {isMenuActive} /> */}
           {/* <AdCreatingOne taskInformation={taskInformation} setTaskInformation={setTaskInformation} /> */}
           {/* <Balance />  */}
         </div>

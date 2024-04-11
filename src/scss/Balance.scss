@@ -9,9 +9,9 @@ $height : 0.32;
 .balance__container{
     display: flex;
     flex-direction: column;
-    margin-top: 22.4px;
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-top: 23.33px;
+    margin-left: 16px;
+    margin-right: 16px;
     .ur__schet{
         /* Bold */
         display: flex;
@@ -23,20 +23,20 @@ $height : 0.32;
         p{
             color: rgb(255, 255, 255);
             font-family: "SF Pro Display 600";
-            font-size: calc(53px * $width );
+            font-size: 17.67px;
             font-weight: 600;
-            line-height:normal;
+            line-height: 21px;
             letter-spacing: 0%;
             text-align: right;
         }
         .info{
-            width: calc(44.33px * $width);
-            height: calc(44.33px * $width);
+            width: 14.78px;
+            height: 14.78px;
         }
     }
     .real__balance-block{
         display: flex;
-        margin-top: calc(90px * $width);
+        margin-top: calc(30px);
         flex-direction: column;
         // gap: 5px;
     }
@@ -45,35 +45,36 @@ $height : 0.32;
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        gap: 5px;
+        gap: -2px;
         p{
+/* 117 */
             color: rgb(255, 255, 255);
             font-family: "SF Compact Rounded";
-            font-size: calc(178.77px * $width) ;
+            font-size: 59.59px;
             font-weight: 500;
-            line-height: normal;
+            line-height: 71px;
             letter-spacing: 4%;
             text-align: left;
         }
         p:nth-child(2){
             color: rgb(218, 245, 254);
             font-family: "SF Compact Rounded 600";
-            font-size: calc(126px * $width) ;
+            font-size: 42px;
             font-weight: 600;
-            line-height: normal;
+            line-height: 50px;
             letter-spacing: 1%;
             text-align: left;
         }
         .blue__dymond{   
             background: rgb(0, 152, 234);
             position: relative;
-            width: calc(128px * $width);
-            height: calc(128px*$width);
+            width: 42.67px;
+            height: 42.67px;
             border-radius: 50%;
             transform: translateY(5px);
             img{
-                width: calc(64.72px * $width);
-                height: calc(64.72px * $width);
+                width: 21.57px;
+                height: 21.57px;
                 position: absolute;
                 position: absolute;
                 left: 50%;
@@ -92,74 +93,74 @@ $height : 0.32;
             /* Description */
             color: rgb(218, 245, 254);
             font-family: "SF Pro Display 400";
-            font-size: calc(40px * $width);
+            font-size: 13.33px;
             font-weight: 400;
-            line-height: normal;
-            letter-spacing: normal;
+            line-height: 15.64px;
+            letter-spacing: 2%;
             text-align: left;
         }
     }
     .balance__interesting{
         display: flex;
         flex-direction: column;
-        gap: calc(24px * $width);
-        margin-top: 25px;
+        gap:8px;
+        margin-top: 30px;
     }
     .balance__interesting-top{
         display:flex;
-        gap: calc(24px * $width);
+        gap: 8px;
     }
     .top-block{
         flex-grow: 1;
-        padding-top: calc(46px * $width);
-        padding-bottom: calc(46px * $width);
+        padding-top: 16px;
+        padding-bottom: 16px;
         align-items: center;
         justify-content: center;
-        gap: 6px;
-        border-radius: calc(35px * $width);
+        gap: 8px;
+        border-radius: 11.67px;
+
+        /* Cards */
         background: rgb(32, 48, 63);
         align-items: center;
         display: flex;
         p{
-            /* Bold */
             color: rgb(46, 165, 255);
             font-family: "SF Pro Display 600";
-            font-size: calc(53px * $width);
+            font-size: 17.67px;
             font-weight: 600;
-            line-height: normal;
+            line-height: 21px;
             letter-spacing: 0%;
             text-align: left;
         }
         img{
-            width: calc(56px * $width);
-            height: calc(56px * $width);
+            width: 18.67px;
+            height: 18.67px;
         }
     }
     
     .choice-of-get-more-block{
         display: flex;
         align-items: center;
-        padding: calc(46px * $width) calc(49px * $width);
+        padding: 12px calc(16px);
         align-items: center;
-        border-radius: calc(30px * $width);
+        border-radius: 10px;
 
         /* Cards */
         background: rgb(32, 48, 63);
 
         img{
-            width: calc(47px * $width);
-            height: calc(37px * $width);
+            width: 15.67px;
+            height: 12.37px;
         }
         p{
             /* Camption Regular */
-            color: rgb(218, 245, 254);
-            font-family: "SF Pro Display 400";
-            font-size: calc(50px * $width);
-            font-weight: 400;
-            line-height: normal;
-            letter-spacing: 1%;
+            color: rgb(46, 165, 255);
+            font-family: "SF Pro Display 600";
+            font-size: 17.67px;
+            font-weight: 600;
+            line-height: 21px;
+            letter-spacing: 0%;
             text-align: left;
-            margin-left: calc(7px);
         }
         .block-of-choice{
             display: flex;
@@ -169,15 +170,15 @@ $height : 0.32;
             p{
                 color: rgb(46, 165, 255);
                 font-family: "SF Pro Display 400";
-                font-size: calc(52px * $width);
+                font-size: 17.33px;
                 font-weight: 400;
-                line-height:normal;
+                line-height: 18.31px;
                 letter-spacing: 1%;
                 text-align: right;
             }
             img{
-                width: calc(28px * 0.35);
-                height: calc(33.2px * 0.35);
+                width: 9.33px;
+                height: 11.07px;
             }
         }
     }
@@ -185,15 +186,17 @@ $height : 0.32;
 
 }
 .transaction{
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     margin-top: auto;
     display: flex;
     flex-direction: column;
-    padding-left: 14px;
-    padding-right: 14px;
-    gap: calc(43px * $width);
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: calc(65.5px);
     margin-top: auto;
-    border-radius:  calc(30px * $width);
+    border-radius: 10px;
+
+    /* Cards */
     background: rgb(32, 48, 63);
     padding-bottom: calc(255px * $width);
     p{

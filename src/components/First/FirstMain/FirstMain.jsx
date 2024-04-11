@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import FirstBlock from "./FirstBlock";
-const FirstMain = ({ ordersInformation, setDetailsActive }) => {
+const FirstMain = ({ ordersInformation, setDetailsActive , ...props}) => {
   return (
-    <div className="FirstMain">
+    <div props className="FirstMain">
 
       {ordersInformation.legth === 0 ? (
         <h1 className="EmptyText"> Нет таких предложений </h1>

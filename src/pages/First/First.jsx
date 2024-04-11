@@ -66,10 +66,10 @@ const First = ( {setMenuActive , isMenuActive} ) => {
 
   const [isDetailsActive, setDetailsActive] = useState(false);
   return (
-    <div className="First" onClick={() => { if(isMenuActive){setMenuActive(false) }   }}>
-       <FirstTop setMenuActive={setMenuActive} setFilterBy = {setFilterBy} />
+    <div style={isMenuActive ? {opacity : '0.3' } : {}} className="First" onClick={() => { if(isMenuActive){setMenuActive(false) }   }}>
+       <FirstTop style={isMenuActive ? {opacity : '0.5' } : {}}  setMenuActive={setMenuActive} setFilterBy = {setFilterBy} />
 
-      <FirstMain setDetailsActive = {setDetailsActive} ordersInformation = {filteredArr}  />
+      <FirstMain style={isMenuActive ? {background : 'rgba(0,0,0,0.5)' } : {}} setDetailsActive = {setDetailsActive} ordersInformation = {filteredArr}  />
 
       {/* <FirstMenu isMenuActive={isMenuActive} setMenuActive={setMenuActive} /> */}
       <Transition

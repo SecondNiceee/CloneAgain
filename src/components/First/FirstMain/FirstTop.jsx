@@ -4,10 +4,10 @@ import OneInput from "../../UI/OneInput/OneInput";
 
 import icon from "../../../images/icon.png";
 
-const FirstTop = ({ setFilterBy, setMenuActive }) => {
+const FirstTop = ({ setFilterBy, setMenuActive , ...props }) => {
   const [inputValue, setInputValue] = useState("");
   return (
-    <div className="FirstTop">
+    <div props className="FirstTop">
       <Burger
         onClick={() => {
           setMenuActive(true);
