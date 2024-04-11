@@ -60,6 +60,7 @@ function App() {
       const [isMenuActive ,  setMenuActive] = useState(false)
       const menuRef = useRef(null)
       
+      const myWidth = document.documentElement.clientWidth;
 
       useEffect(() => {
         let startTouchX = 0;
@@ -86,7 +87,7 @@ function App() {
 
 
       return (
-        <div style={isMenuActive ? {position : 'fixed'} : {}} className="MainContainer" >
+        <div style={isMenuActive ? {position : 'fixed' , width : myWidth.toString() + 'px'} : {}} className="MainContainer" >
           {/* <Routes>
               <Route path="/" element = {<FirstMenu isMenuActive={isMenuActive} setMenuActive={setMenuActive} />}>
                 <Route path="/"  element = {<First setMenuActive={setMenuActive} />}  />

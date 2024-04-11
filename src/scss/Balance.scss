@@ -198,18 +198,18 @@ $height : 0.32;
 
     /* Cards */
     background: rgb(32, 48, 63);
-    padding-bottom: calc(255px * $width);
+    padding-bottom: calc(6px);
     p{
         /* Default text CAPS */
         color: rgb(132, 137, 143);
-        font-family: "SF Pro Display";
-        font-size: calc(40px * $width);
+        font-family: "SF Pro Display 400";
+        font-size: 13.33px;
         font-weight: 400;
-        line-height: normal;
+        line-height: 15.64px;
         letter-spacing: 2%;
         text-align: left;
         text-transform: uppercase;
-        margin-top: calc(52px* $width);
+        margin-top: 65px;
     }
     .grey__block{
         transition: 0.4s;
