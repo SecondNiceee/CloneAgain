@@ -6,17 +6,30 @@ import icon from '../../images/icons/icon.svg'
 import orangeWallet from '../../images/icons/OrangeWallet.svg'
 import Subtract from '../../images/icons/Subtract.svg'
 import greyArrowRight from '../../images/icons/greyArrowRight.svg'
-const Profile = () => {
+import Burger from '../../components/UI/Burger/Burger';
+const Profile = ({setMenuActive , isMenuActive}) => {
+
     const refName = useRef(null)
     const [isReadOnly , setReadOnly ] = useState(true)
+    const [name , setName] = useState('Твое имя')
+    const [aboutU , setAboutU] = useState('18,Москва')
+    const hiddenP = useRef(null)
+    function aboutWidth(ch){   
+        console.log('hiddenP :' + hiddenP)
+        if (hiddenP.current !== null){
+            console.log(hiddenP.current)
+            return hiddenP.current.offsetWidth.toString() + 'px'
+        } 
+    }
     return (
         <div className='profile__container'>
+                <Burger onClick = {() => setMenuActive(true)}  />
                 <img src={icon} className='profile__icon' alt="" />
                 {/* <input ref = {refName} id = 'Name' className='urName' type="text" value='Ваше имя'  readonly  /> */}
-                <p className = 'urName' > Ваше имя </p>
-                <label onClick={() => {refName.current.readonly = false
-                    console.log(refName.current.readonly)
-                }} for = 'Name' className="change__block">
+                <input onBlur={() => setReadOnly(true)} readOnly = {isReadOnly} value={name} onChange={(e) => setName(e.target.value)}  className = 'urName' id='Name'  />
+                <label onClick={() => {setReadOnly(false)
+                
+                }} onBlur={() => setReadOnly(true)} for = 'Name' className="change__block">
                     <p className='change'>изменить</p>
                     <Pencel className= 'pencel' />
                 </label>
@@ -77,8 +90,15 @@ const Profile = () => {
                 <div className="profile__about-me">
                     <p>О себе</p>
                     <div className="ur__town">
-                        <p>18, Москва</p> 
-                        <Pencel className='pencel' />
+                        <p ref={hiddenP} className='hiddenP'>{aboutU}</p>
+                        <input onChange={(e) => setAboutU(e.target.value)} style={ hiddenP.current ?  {width : hiddenP.current.offsetWidth } : {}} onBlur={
+                            (e) => {
+
+                            }
+                        } className='about__u-text' value={aboutU}/> 
+                        <label htmlFor="aboutYou">
+                            <Pencel className='pencel' />
+                        </label>
                     </div>
 
                 </div>
@@ -96,7 +116,7 @@ const Profile = () => {
 
                         <div className="veryfication__block-text">
                             <p>Пройти KYC верификацию</p>
-                            <p>Подтвердите свою личность
+                            <p>Подтвердите свою личность <br/>
 и получайте на 20% больше откликов</p>
                         </div>
                         <img src={greyArrowRight} className='greyArrow' alt="" />

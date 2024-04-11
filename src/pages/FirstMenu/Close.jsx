@@ -3,8 +3,8 @@ import React from 'react';
 const Close = ({isMenuActive , setMenuActive}) => {
     return (
         
-            <div className='close' >
-                <div className="close__wrapper" onClick = {() => { setMenuActive(!isMenuActive)}  } >
+            <div  onClick = {() => { setMenuActive(false)}  } className='close' >
+                <div className="close__wrapper" >
 
                 </div>
                 <div className="close__container" style={{position : 'relative'}}>

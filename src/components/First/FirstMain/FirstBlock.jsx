@@ -14,7 +14,7 @@ const FirstBlock = ({title, executionPlace, startTime, tonPrice, rublesPrice , s
                 <div className="FirstMain__top">
                     <Pallete  />
                     <p>{title}</p>
-                    <ShareIcon />
+                    <ShareIcon className='share__icon' />
                 </div>
                 <div className="FirstMain__middle">
                     <p>{executionPlace}</p>

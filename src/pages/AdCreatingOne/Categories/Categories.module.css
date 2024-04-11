@@ -36,7 +36,7 @@
     letter-spacing: 1%;
     text-align: right;
     display: flex;
-    gap: 7px;
+    gap: 6px;
     align-items: center;
 }
 .Categories__block  .Category__link::after{

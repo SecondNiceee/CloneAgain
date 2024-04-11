@@ -99,14 +99,14 @@ function App() {
 
           {/* <AdCreatingTwo taskInformation={taskInformation} setTaskInformation={setTaskInformation} tonConstant = {tonConstant} />
           <AdCreatingThree taskInformation={taskInformation} setTaskInformation={setTaskInformation} /> */}
-
-          {/* <FirstMenu menuRef = {menuRef} isMenuActive={isMenuActive} setMenuActive={setMenuActive}  />
+{/* 
+          <FirstMenu menuRef = {menuRef} isMenuActive={isMenuActive} setMenuActive={setMenuActive}  />
           <First setMenuActive={setMenuActive } isMenuActive={isMenuActive} /> */}
 
-
-
-          <AdCreatingOne taskInformation={taskInformation} setTaskInformation={setTaskInformation} />
-          {/* <Balance /> */}
+          <FirstMenu isMenuActive={isMenuActive} setMenuActive={setMenuActive} />
+          <Profile setMenuActive = {setMenuActive} isMenuActive = {isMenuActive} />
+          {/* <AdCreatingOne taskInformation={taskInformation} setTaskInformation={setTaskInformation} /> */}
+          {/* <Balance />  */}
         </div>
       );
 }

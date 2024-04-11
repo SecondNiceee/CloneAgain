@@ -1,6 +1,6 @@
 .Burger{
-    width: calc( 62px * (430/1170) );
-    height: calc(46px * (430/1170)); 
+    width: calc( 20px);
+    height: calc(15px); 
     position: relative;
     cursor: pointer;
 }
@@ -21,4 +21,9 @@
 }
 .Burger span:nth-child(3){
     bottom: 0;
+}
+.burgerMainWrapper{
+    position: absolute;
+    left: 16px;
+    top: 26px;
 }

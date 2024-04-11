@@ -1,20 +1,25 @@
 .OneInput{
-    max-width: 100%;
-    flex-grow: 1   ;
-    border-radius: 47.5px;
-    background-color: rgb(46, 55, 64);
-    padding-left: calc(47px * 0.32);
-    padding-top: calc(24px * 0.32);
-    padding-bottom: calc(24px * 0.32);
-    border: none;
-    color : white;
-    font-size: calc(44px * (430/1180)) ;
+    color: rgb(255, 255, 255);
     font-family: "SF Pro Display";
-    max-height: calc(95px * 0.32);
+    font-size: 14.67px;
+    font-weight: 500;
+    line-height: 17.67px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 8px 15px;
+    padding-bottom: 5px;
+    border-radius: 15.83px;
+
+/* Semi */
+    background: rgb(46, 55, 64);
+    flex-grow: 1;
 }
 .OneInput::placeholder{
-    color : rgba(149, 151, 158 , 0.5);
-    font-size: calc(44px * (430/1180)) ;
-    font-family: "SF Pro Display";
-    max-height: calc(95px * 0.32);
+    color: rgb(149, 151, 158);
+    font-family: SF Pro Display;
+    font-size: 14.67px;
+    font-weight: 500;
+    line-height: 17.67px;
+    letter-spacing: 0%;
+    text-align: left;
 }

@@ -35,16 +35,16 @@ const FirstMenu = ({isMenuActive , setMenuActive , menuRef}) => {
 
 
             <div className='MenuList'>
-                <Link onClick={(e) => {setMenuActive(false)}}  to="/AdCreatingOne" >Создать задание</Link>
-                <a href="">Найти задания</a>
-                <a href="">Мои задания</a>
-                <a href="">Уведомления</a>
-                <a href="">Новости Коннект.биржи</a>
-                <a href="" style={{color : 'rgb(42, 207, 88)'}}> Стать исполнителем </a>
+                <Link className='menuLink'  onClick={(e) => {setMenuActive(false)}}  to="/AdCreatingOne" >Создать задание</Link>
+                <a className='menuLink' href="">Найти задания</a>
+                <a className='menuLink'  href="">Мои задания</a>
+                <a className='menuLink'  href="">Уведомления</a>
+                <a className='menuLink'  href="">Новости Коннект.биржи</a>
+                <a className='menuLink'  href="" style={{color : 'rgb(42, 207, 88)'}}> Стать исполнителем </a>
             </div>
             <div className="Menu__Helps">
-                <a className='' href="">Поддержка </a>
-                <Human />
+                <a className = 'menuHelp'  href="">Поддержка </a>
+                <Human className='human' />
             </div>
 
         </div>
