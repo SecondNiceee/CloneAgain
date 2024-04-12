@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.1453b155.css",
-    "main.js": "./static/js/main.e43ae46b.js",
+    "main.css": "./static/css/main.496ac202.css",
+    "main.js": "./static/js/main.187d6682.js",
     "static/media/icon.svg": "./static/media/icon.0cae8fdf75cdb094c7416d67f16f0db7.svg",
     "static/media/sf-compact-rounded.ttf": "./static/media/sf-compact-rounded.5beab7105be2b1142b4b.ttf",
     "static/media/SFProText-Semibold.ttf": "./static/media/SFProText-Semibold.fee27977166efaac0a2a.ttf",
@@ -35,16 +35,16 @@
     "static/media/info.svg": "./static/media/info.a7572fe80d41307d7d6f3f133e979b05.svg",
     "static/media/rightArrow.svg": "./static/media/rightArrow.01e9c805aac20223bd5534e11dea3ef3.svg",
     "static/media/Share.svg": "./static/media/Share.a573ce77573f06612cce637ef7a888aa.svg",
-    "static/media/UpDown.svg": "./static/media/UpDown.602fd0579eec9bf9d629c6c1c6531b83.svg",
-    "static/media/wallet.svg": "./static/media/wallet.f74e0d7e82fa41b923873a9c3419aa53.svg",
+    "static/media/wallet.svg": "./static/media/wallet.c8c3214aa3fd87438f28109a60310b70.svg",
     "static/media/linkArrow.svg": "./static/media/linkArrow.4020e5c688915ea551ea.svg",
     "static/media/upArr.svg": "./static/media/upArr.4020e5c688915ea551eab9f9a5c11931.svg",
     "static/media/Circle.svg": "./static/media/Circle.64d6abfca8a21b75405a970c8a05b28d.svg",
-    "main.1453b155.css.map": "./static/css/main.1453b155.css.map",
-    "main.e43ae46b.js.map": "./static/js/main.e43ae46b.js.map"
+    "static/media/UpDown.svg": "./static/media/UpDown.db47f8a8cd05865940928911bfb487fb.svg",
+    "main.496ac202.css.map": "./static/css/main.496ac202.css.map",
+    "main.187d6682.js.map": "./static/js/main.187d6682.js.map"
   },
   "entrypoints": [
-    "static/css/main.1453b155.css",
-    "static/js/main.e43ae46b.js"
+    "static/css/main.496ac202.css",
+    "static/js/main.187d6682.js"
   ]
 }
