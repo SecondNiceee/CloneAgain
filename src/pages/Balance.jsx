@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import  info  from '../images/icons/info.svg';
 import plus from '../images/icons/Plus.svg'
 import upUp from '../images/icons/UpUp.svg'
+// import wallet from '../images/icons/wallet.svg'
 import wallet from '../images/icons/wallet.svg'
 import upDownArr from '../images/icons/UpDown.svg'
 import white_dymond from '../images/icons/whiteDymond.svg'
@@ -13,13 +14,13 @@ const Balance = () => {
     const [whatShow,  setWhatShow] = useState('all')
     const [widthOfDocument , setWidthOfDocument] = useState(document.documentElement.clientWidth)
     useEffect(() => {
-        ref1.current.style.minWidth = (document.documentElement.clientWidth - 28).toString() + 'px' 
-        ref2.current.style.minWidth = (document.documentElement.clientWidth - 28).toString() + 'px' 
-        ref3.current.style.minWidth = (document.documentElement.clientWidth - 28).toString() + 'px'
+        ref1.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px' 
+        ref2.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px' 
+        ref3.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px'
         window.addEventListener('resize' , () => {
-            ref1.current.style.minWidth = (document.documentElement.clientWidth - 28).toString() + 'px' 
-            ref2.current.style.minWidth = (document.documentElement.clientWidth - 28).toString() + 'px' 
-            ref3.current.style.minWidth = (document.documentElement.clientWidth - 28).toString() + 'px' 
+            ref1.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px' 
+            ref2.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px' 
+            ref3.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px' 
             setWidthOfDocument(document.documentElement.clientWidth)
         })
     } , []
@@ -77,7 +78,7 @@ const Balance = () => {
                     <p>Способ пополнения</p>
                     <div className="block-of-choice">
                         <p>Wallet</p>
-                        <img src={upDownArr} alt="" />
+                        <img className='upDown' src={upDownArr} alt="" />
                     </div>
                 </div>
                 <div className="choice-of-get-more-block">
@@ -85,7 +86,7 @@ const Balance = () => {
                     <p>Способ пополнения</p>
                     <div className="block-of-choice">
                         <p>Wallet</p>
-                        <img src={upDownArr} alt="" />
+                        <img className='upDown' src={upDownArr} alt="" />
                     </div>
                 </div>
             </div>

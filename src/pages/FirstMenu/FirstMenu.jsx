@@ -18,7 +18,7 @@ const FirstMenu = ({isMenuActive , setMenuActive , menuRef}) => {
                 <div className="FirstMenu__top-right">
                     <p className='MenuName'>Nedzelskiy</p>
                     <div className='MenuProfile'>
-                        <p>Профиль</p>
+                        <Link className='MenuProfileLink' to='/profile'>Профиль</Link>
                         <Pensel className='normail' />
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const FirstMenu = ({isMenuActive , setMenuActive , menuRef}) => {
 
             <div className='MenuList'>
                 <Link className='menuLink'  onClick={(e) => {setMenuActive(false)}}  to="/AdCreatingOne" >Создать задание</Link>
-                <a className='menuLink' href="">Найти задания</a>
+                <Link className='menuLink' to = '/'>Найти задания</Link>
                 <a className='menuLink'  href="">Мои задания</a>
                 <a className='menuLink'  href="">Уведомления</a>
                 <a className='menuLink'  href="">Новости Коннект.биржи</a>

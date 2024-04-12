@@ -217,6 +217,7 @@
   gap: 13px;
   -ms-flex-item-align: end;
       align-self: flex-end;
+  margin-right: 4px;
 }
 .First__block .FirstMain__bottom-right .tie {
   -ms-flex-item-align: center;
@@ -289,7 +290,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.FirstMenu .MenuProfile p {
+.FirstMenu .MenuProfile .MenuProfileLink {
   color: rgb(218, 245, 254);
   font-family: "SF Pro Display";
   font-size: 14.67px;
@@ -1480,7 +1481,7 @@ input {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  gap: -2px;
+  gap: 5px;
 }
 .balance__container .real__balance-block-up p {
   /* 117 */
@@ -1510,6 +1511,7 @@ input {
   -webkit-transform: translateY(5px);
       -ms-transform: translateY(5px);
           transform: translateY(5px);
+  margin-left: 4px;
 }
 .balance__container .real__balance-block-up .blue__dymond img {
   width: 21.57px;
@@ -1601,21 +1603,33 @@ input {
   padding: 12px 16px;
   align-items: center;
   border-radius: 10px;
+  gap: 10px;
   /* Cards */
   background: rgb(32, 48, 63);
 }
 .balance__container .choice-of-get-more-block img {
-  width: 15.67px;
-  height: 12.37px;
+  width: 16px;
+  height: 13px;
+  -webkit-transform: translateY(-1px);
+      -ms-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+.balance__container .choice-of-get-more-block .upDown {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+          transform: translateY(0px);
 }
 .balance__container .choice-of-get-more-block p {
   /* Camption Regular */
-  color: rgb(46, 165, 255);
-  font-family: "SF Pro Display 600";
-  font-size: 17.67px;
-  font-weight: 600;
-  line-height: 21px;
-  letter-spacing: 0%;
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display 400";
+  font-size: 16.67px;
+  font-weight: 400;
+  line-height: 18.31px;
+  letter-spacing: 1%;
   text-align: left;
 }
 .balance__container .choice-of-get-more-block .block-of-choice {
@@ -1638,13 +1652,13 @@ input {
   text-align: right;
 }
 .balance__container .choice-of-get-more-block .block-of-choice img {
-  width: 9.33px;
-  height: 11.07px;
+  width: 12.33px;
+  height: 13.07px;
 }
 
 .transaction {
   margin-bottom: 6px;
-  margin-top: auto;
+  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1654,8 +1668,9 @@ input {
           flex-direction: column;
   padding-left: 16px;
   padding-right: 16px;
-  gap: 65.5px;
-  margin-top: auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   border-radius: 10px;
   /* Cards */
   background: rgb(32, 48, 63);
@@ -1671,19 +1686,21 @@ input {
   letter-spacing: 2%;
   text-align: left;
   text-transform: uppercase;
-  margin-top: 65px;
+  margin-top: 17.33px;
+  margin-left: 2px;
 }
 .transaction .grey__block {
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
 }
 .transaction .transaction__main {
+  margin-top: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 28px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  gap: 32px;
 }
 .transaction .transaction__main .common {
   display: -webkit-box;
@@ -1693,8 +1710,8 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
 }
 .transaction .transaction__main .common .how__many {
   display: -webkit-box;
@@ -1709,15 +1726,27 @@ input {
 .transaction .transaction__main .common .how__many .how__many-text:nth-child(1), .transaction .transaction__main .common .how__many .how__many-text:nth-child(2) {
   color: rgb(48, 209, 88);
   font-family: "SF Pro Display";
-  font-size: 16.96px;
+  font-size: 17.67px;
   font-weight: 500;
-  line-height: normal;
+  line-height: 21px;
   letter-spacing: 0%;
   text-align: right;
-  margin-top: 0;
+  margin-left: 0;
+  text-decoration: none;
+  text-transform: none;
 }
 .transaction .transaction__main .common p {
+  color: rgb(48, 209, 88);
+  font-family: "SF Pro Display";
+  font-size: 14.67px;
+  font-weight: 500;
+  line-height: 17.67px;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-left: 0;
   margin-top: 0;
+  text-decoration: none;
+  text-transform: none;
 }
 .transaction .transaction__main .common__block {
   display: -webkit-box;
@@ -1730,8 +1759,8 @@ input {
 .transaction .transaction__main .common__block .download {
   position: relative;
   border-radius: 50%;
-  min-width: 38.4px;
-  height: 38.4px;
+  min-width: 40px;
+  height: 40px;
   background: rgb(61, 168, 248);
 }
 .transaction .transaction__main .common__block .common-text {
@@ -1742,30 +1771,30 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 2px;
-  margin-left: 9.92px;
+  gap: 1px;
+  margin-left: 10.33px;
 }
 .transaction .transaction__main .common__block .common-text p:nth-child(1) {
   color: rgb(255, 255, 255);
   font-family: "SF Pro Display";
-  font-size: 16.96px;
+  font-size: 17.67px;
   font-weight: 500;
-  line-height: normal;
+  line-height: 21px;
   letter-spacing: 0%;
   text-align: left;
-  margin-top: 0;
+  margin-left: 0;
   text-transform: none;
 }
 .transaction .transaction__main .common__block .common-text .date-text {
-  text-transform: none;
   color: rgb(181, 206, 217);
   font-family: "SF Pro Display";
-  font-size: 14.08px;
+  font-size: 14.67px;
   font-weight: 500;
-  line-height: normal;
+  line-height: 17.67px;
   letter-spacing: 0%;
   text-align: left;
-  margin-top: 0;
+  margin-left: 0;
+  text-transform: none;
 }
 .transaction .transaction__main .common__block .common-color-text {
   display: -webkit-box;
@@ -1776,30 +1805,13 @@ input {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: auto;
-}
-.transaction .transaction__main .common__block .common-color-text p:nth-child(1) {
-  color: rgb(48, 209, 88);
-  font-family: "SF Pro Display";
-  font-size: 16.96px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0%;
-  text-align: right;
-}
-.transaction .transaction__main .common__block .common-color-text p:nth-child(2) {
-  /* Default text */
-  color: rgb(48, 209, 88);
-  font-family: "SF Pro Display";
-  font-size: 14.08px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0%;
-  text-align: right;
-  text-transform: none;
+  gap: 1px;
 }
 .transaction .download-image {
-  width: 24.32px;
-  height: 24.32px;
+  /* Rectangle 45 */
+  position: absolute;
+  width: 25.33px;
+  height: 25.33px;
   position: absolute;
   left: 50%;
   bottom: 50%;
@@ -1814,13 +1826,17 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-radius: 8px;
+  border-radius: 7.31px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   border: 1.57px solid rgba(224, 76, 76, 0.04);
   background: rgba(118, 118, 128, 0.24);
   position: relative;
+  margin-top: 14px;
 }
 .transaction .stages .stage {
-  padding: 8px 0px;
+  padding-top: 7px;
+  padding-bottom: 6px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1836,18 +1852,19 @@ input {
 .transaction .stages .stage p {
   color: rgb(255, 255, 255);
   font-family: "SF Pro Text 600";
-  font-size: 12.8px;
+  font-size: 13.57px;
   font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.25px;
+  line-height: 20.87px;
+  letter-spacing: -0.08px;
   text-align: center;
+  margin-top: 0px;
+  margin-left: 0px;
   text-decoration: none;
   text-transform: none;
-  margin-top: 0px;
 }
 .transaction .grey__block {
   position: absolute;
-  width: 33.33%;
+  width: 33.3333333333%;
   border-radius: 8px;
   background: rgba(118, 118, 128, 0.24);
   border-radius: 8px;

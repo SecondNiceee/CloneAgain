@@ -45,7 +45,7 @@ $height : 0.32;
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        gap: -2px;
+        gap: 5px;
         p{
 /* 117 */
             color: rgb(255, 255, 255);
@@ -72,6 +72,7 @@ $height : 0.32;
             height: 42.67px;
             border-radius: 50%;
             transform: translateY(5px);
+            margin-left: 4px;
             img{
                 width: 21.57px;
                 height: 21.57px;
@@ -144,22 +145,27 @@ $height : 0.32;
         padding: 12px calc(16px);
         align-items: center;
         border-radius: 10px;
-
+        gap: 10px;
         /* Cards */
         background: rgb(32, 48, 63);
 
         img{
-            width: 15.67px;
-            height: 12.37px;
+            width: 16px;
+            height: 13px;
+            transform: translateY(-1px);
+        }
+        .upDown{
+            transform: none;
+            transform: translateY(0px);
         }
         p{
             /* Camption Regular */
-            color: rgb(46, 165, 255);
-            font-family: "SF Pro Display 600";
-            font-size: 17.67px;
-            font-weight: 600;
-            line-height: 21px;
-            letter-spacing: 0%;
+            color: rgb(218, 245, 254);
+            font-family: "SF Pro Display 400";
+            font-size: 16.67px;
+            font-weight: 400;
+            line-height: 18.31px;
+            letter-spacing: 1%;
             text-align: left;
         }
         .block-of-choice{
@@ -177,8 +183,8 @@ $height : 0.32;
                 text-align: right;
             }
             img{
-                width: 9.33px;
-                height: 11.07px;
+                width: 12.33px;
+                height: 13.07px;
             }
         }
     }
@@ -187,13 +193,12 @@ $height : 0.32;
 }
 .transaction{
     margin-bottom: 6px;
-    margin-top: auto;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     padding-left: 16px;
     padding-right: 16px;
-    gap: calc(65.5px);
-    margin-top: auto;
+    flex-grow: 1    ;
     border-radius: 10px;
 
     /* Cards */
@@ -209,19 +214,21 @@ $height : 0.32;
         letter-spacing: 2%;
         text-align: left;
         text-transform: uppercase;
-        margin-top: 65px;
+        margin-top: 17.33px;
+        margin-left: 2px;
     }
     .grey__block{
-        transition: 0.4s;
+        transition: 0.15s;
     }
     .transaction__main{
+        margin-top: 19px;
         display: flex;
-        gap: 28px;
-        transition: 0.4s;
+        transition: 0.15s;
+        gap: 32px;
         .common{
             display: flex;
             flex-direction: column;
-            transition: 0.4s;
+            transition: 0.15s;
             .how__many{
                 display: flex;
                 gap: 2px;
@@ -230,16 +237,28 @@ $height : 0.32;
                 .how__many-text:nth-child(1) , .how__many-text:nth-child(2) {
                     color: rgb(48, 209, 88);
                     font-family: "SF Pro Display";
-                    font-size: calc(53px * $width) ;
+                    font-size: 17.67px;
                     font-weight: 500;
-                    line-height: normal;
+                    line-height: 21px;
                     letter-spacing: 0%;
                     text-align: right;
-                    margin-top: 0;
+                    margin-left: 0;
+                    text-decoration: none;
+                    text-transform: none;
                 }
             }
             p{
+                color: rgb(48, 209, 88);
+                font-family: "SF Pro Display";
+                font-size: 14.67px;
+                font-weight: 500;
+                line-height: 17.67px;
+                letter-spacing: 0%;
+                text-align: right;
+                margin-left: 0;
                 margin-top: 0;
+                text-decoration: none;
+                text-transform: none;
             }
 
         }
@@ -249,68 +268,51 @@ $height : 0.32;
             .download{
                 position: relative;
                 border-radius: 50%;
-                min-width: calc(120px * $width);
-                height: calc(120px *$width);
+                min-width:40px;
+                height: 40px;
                 background: rgb(61, 168, 248);
             }
             .common-text{
                 display: flex;
                 flex-direction: column;
-                gap: 2px;
-                margin-left: calc(31px * $width);
+                gap: 1px;
+                margin-left: calc(10.33px);
                 p:nth-child(1){
                     color: rgb(255, 255, 255);
                     font-family: "SF Pro Display";
-                    font-size: calc(53px * $width);
+                    font-size: 17.67px;
                     font-weight: 500;
-                    line-height: normal;
+                    line-height: 21px;
                     letter-spacing: 0%;
                     text-align: left;
-                    margin-top: 0;
+                    margin-left: 0;
                     text-transform: none;
                 }
                 .date-text{
-                    text-transform: none;
                     color: rgb(181, 206, 217);
                     font-family: "SF Pro Display";
-                    font-size: calc(44px * $width);
+                    font-size: 14.67px;
                     font-weight: 500;
-                    line-height: normal;
+                    line-height: 17.67px;
                     letter-spacing: 0%;
                     text-align: left;
-                    margin-top: 0;
+                    margin-left: 0;
+                    text-transform: none;
                 }
             }
             .common-color-text{
                 display: flex;
                 flex-direction: column;
                 margin-left: auto;
-                p:nth-child(1){
-                    color: rgb(48, 209, 88);
-                    font-family: "SF Pro Display";
-                    font-size: calc(53px * $width) ;
-                    font-weight: 500;
-                    line-height: normal;
-                    letter-spacing: 0%;
-                    text-align: right;
-                }
-                p:nth-child(2){
-/* Default text */
-                color: rgb(48, 209, 88);
-                font-family: "SF Pro Display";
-                font-size: calc(44px * $width);
-                font-weight: 500;
-                line-height: normal;
-                letter-spacing: 0%;
-                text-align: right;     
-                text-transform: none;                  
-                }
+                gap: 1px;
             }
         }
     }
     .download-image{
-        width: calc(76px * $width);
-        height: calc(76px * $width);
+/* Rectangle 45 */
+        position: absolute;
+        width: 25.33px;
+        height: 25.33px;
         position: absolute;
         left: 50%;
         bottom: 50%;
@@ -321,12 +323,17 @@ $height : 0.32;
     }
     .stages{
         display: flex;
-        border-radius: calc(25px * $width) ;
+        border-radius: 7.31px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
         border: 1.57px solid rgba(224, 76, 76, 0.04);
         background: rgba(118, 118, 128, 0.24);
         position: relative;
+        margin-top: 14px;
         .stage{
-            padding: calc(25px * $width) 0px;
+            padding-top: 7px;
+            padding-bottom: 6px;
             width: 100%;
             display: flex;
             align-items: center;
@@ -335,20 +342,21 @@ $height : 0.32;
             p{
                 color: rgb(255, 255, 255);
                 font-family: "SF Pro Text 600";
-                font-size: calc(40px * $width) ;
+                font-size: 13.57px;
                 font-weight: 600;
-                line-height: normal;
-                letter-spacing: -0.25px;
-                text-align: center;     
-                text-decoration: none;   
-                text-transform: none; 
-                margin-top: 0px;     
+                line-height: 20.87px;
+                letter-spacing: -0.08px;
+                text-align: center;
+                margin-top: 0px;
+                margin-left: 0px;
+                text-decoration: none;
+                text-transform: none;
             }
         }
     }
     .grey__block{
         position: absolute;
-        width: 33.33%;
+        width: calc(100% / 3);
         border-radius: calc(25px * $width) ;
         background: rgba(118, 118, 128, 0.24);
         border-radius: calc(25px * $width) ;

@@ -157,6 +157,7 @@
         display: flex;
         gap: calc(13px);
         align-self: flex-end;
+        margin-right: 4px;
         .tie{
             align-self: center;
             line-height: 0;
@@ -205,7 +206,7 @@
         display: flex;
         gap: 5px;
         align-items: center;
-        p{
+        .MenuProfileLink{
             color: rgb(218, 245, 254);
             font-family: "SF Pro Display";
             font-size: 14.67px;

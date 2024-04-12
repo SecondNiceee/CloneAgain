@@ -13,7 +13,6 @@ import FirstDetails from './components/First/FirstDetails/FirstDetails';
 window.Telegram.WebApp.expand()
 ReactDOM.render(
       <BrowserRouter >
-      
                <App />
       </BrowserRouter>,
 
