@@ -3,10 +3,11 @@ import react, { useEffect, useRef } from "react";
 import First from "./pages/First/First";
 import "./css/Main.css";
 import "./css/Fonts.css";
-
+import "./css/Values.css";
 import AdCreatingTwo from "./pages/ADCreatingTwo/AdCreatingTwo/AddCreatingTwo";
 import "./css/style.css";
-
+import PageTransition from "./components/PageTransition";
+import { useLocation } from "react-router-dom";
 import {
   BrowserRouter,
   createBrowserRouter,
@@ -22,9 +23,27 @@ import FirstMenu from "./pages/FirstMenu/FirstMenu";
 import { useTon } from "./hooks/useTon";
 import Profile from "./pages/Profile/Profile";
 import Balance from "./pages/Balance";
-
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 <script src="https://telegram.org/js/telegram-web-app.js"></script>;
 window.Telegram.WebApp.expand();
+
+const AnimatedSwitch = ({setMenuActive , isMenuActive , taskInformation , setTaskInformation  ,  tonConstant}) => {
+  const location = useLocation();
+  console.log("location", location);
+  return (
+    <TransitionGroup>
+      <CSSTransition key={location.key} classNames="page" timeout={20000}>
+        <Routes>
+          <Route path="/" element={<First setMenuActive={setMenuActive} isMenuActive={isMenuActive}  />} exact />
+          <Route path="/AdCreatingOne" element={<AdCreatingOne taskInformation={taskInformation} setTaskInformation={setTaskInformation} />} />
+        </Routes>
+      </CSSTransition>
+    </TransitionGroup>
+  );
+};
+
+
+
 function App() {
   var BackButton = window.Telegram.WebApp.BackButton;
   BackButton.show();
@@ -34,6 +53,8 @@ function App() {
   });
   window.Telegram.WebApp.setBackgroundColor("#000000");
   window.Telegram.WebApp.setHeaderColor("#ffffff");
+
+  const [isMenuActive, setMenuActive] = useState(false);
 
   // var BackButton = Telegram.WebApp.BackButton;
   // BackButton.isVisible = true;
@@ -56,11 +77,42 @@ function App() {
     taskDate: { start: "", end: "" },
   });
 
-  const tonConstant = useTon();
-  const [isMenuActive, setMenuActive] = useState(false);
-  const menuRef = useRef(null);
+  // const tonConstant = useTon();
 
-  const myWidth = document.documentElement.clientWidth;
+  const [tonConstant, setTonConstant] = useState(0);
+  const [tonPrice, setTonPrice] = useState(0);
+  const [dollarValue, setDollarValue] = useState(0);
+
+  useEffect(() => {
+    async function getCurrencies() {
+      const response = await fetch(
+        "https://www.cbr-xml-daily.ru/daily_json.js"
+      );
+      const data = await response.json();
+      const result = await data;
+      return result.Valute.USD.Value;
+    }
+
+    async function getTonPrice() {
+      const response = await fetch(
+        "https://api.coingecko.com/api/v3/coins/the-open-network"
+      );
+      const data = await response.json();
+      return data.market_data.current_price.usd;
+    }
+    async function joker() {
+      setTonConstant(33);
+      return 2;
+    }
+    setTonConstant(3322332);
+    async function catchIt() {
+      let one = await getCurrencies();
+      console.log(one);
+      let two = await getTonPrice();
+      return one * two;
+    }
+    catchIt().then((value) => setTonConstant(value));
+  }, []);
 
   useEffect(() => {
     let startTouchX = 0;
@@ -91,9 +143,14 @@ function App() {
   }, [isMenuActive]);
 
   return (
-    <div className="MainContainer">
-      {/* <First setMenuActive={setMenuActive} isMenuActive={isMenuActive} /> */}
-       <Balance /> 
+    <div className="AllComponents">
+
+          <BrowserRouter>
+            <FirstMenu isMenuActive={isMenuActive} setMenuActive={setMenuActive} />
+                    <div className={isMenuActive ? "MainContainer opacity" : "MainContainer"}>
+                    <AnimatedSwitch setMenuActive={setMenuActive} isMenuActive={isMenuActive} taskInformation={taskInformation} setTaskInformation={setTaskInformation} tonConstant={tonConstant} />
+                      </div>
+              </BrowserRouter>
     </div>
   );
 }

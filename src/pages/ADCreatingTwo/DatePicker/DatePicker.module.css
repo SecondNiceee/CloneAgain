@@ -1,5 +1,14 @@
 .DatePicker{
     display: flex;
     flex-direction: column;
-    gap: calc(29px * 0.32);
+
+}
+.picker{
+    margin-top: 7.33px;
+}
+.CatchDate{
+    margin-top: 8px;   
+}
+.GreyText{
+    margin-left: 16px;
 }

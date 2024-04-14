@@ -11,20 +11,25 @@ const Balance = () => {
     const ref1 = useRef(null)
     const ref2 = useRef(null)
     const ref3 = useRef(null)
+    console.log(ref1)
     const [whatShow,  setWhatShow] = useState('all')
     const [widthOfDocument , setWidthOfDocument] = useState(document.documentElement.clientWidth)
     useEffect(() => {
         ref1.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px' 
         ref2.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px' 
         ref3.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px'
-        window.addEventListener('resize' , () => {
+        function addKey(){
             ref1.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px' 
             ref2.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px' 
             ref3.current.style.minWidth = (document.documentElement.clientWidth - 32).toString() + 'px' 
             setWidthOfDocument(document.documentElement.clientWidth)
-        })
-    } , []
-    )
+        }
+        window.addEventListener('resize' , addKey)
+        return () => {window.removeEventListener('resize' , addKey)}
+    } 
+     , []
+)
+    
     function setGreyBlock(whatShow){
             switch (whatShow){
                 case 'all' : return 'translateX(0%)'

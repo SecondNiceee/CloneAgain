@@ -12,9 +12,8 @@ import FirstDetails from './components/First/FirstDetails/FirstDetails';
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 window.Telegram.WebApp.expand()
 ReactDOM.render(
-      <BrowserRouter >
-               <App />
-      </BrowserRouter>,
+               <App />,
+
 
     document.getElementById('root')
 );

@@ -18,7 +18,7 @@ const FirstMenu = ({isMenuActive , setMenuActive , menuRef}) => {
                 <div className="FirstMenu__top-right">
                     <p className='MenuName'>Nedzelskiy</p>
                     <div className='MenuProfile'>
-                        <Link className='MenuProfileLink' to='/profile'>Профиль</Link>
+                        <Link className='MenuProfileLink' to='/'>Профиль</Link>
                         <Pensel className='normail' />
                     </div>
                 </div>

@@ -6,10 +6,10 @@
 .Holding p:nth-child(1){
     /* Default text CAPS */
     color: rgb(132, 137, 143);
-    font-family: "SF Pro Display";
-    font-size: calc(40px*0.325);
+    font-family: "SF Pro Display 400";
+    font-size: 13.33px;
     font-weight: 400;
-    line-height: normal;
+    line-height: 15.64px;
     letter-spacing: 2%;
     text-align: center;
     text-transform: uppercase;
@@ -17,19 +17,29 @@
 .Holding p:nth-child(2){
     color: rgb(255, 255, 255);
     font-family: "SF Compact Rounded";
-    font-size: calc(178px * 0.325);
+    font-size: 59.59px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 71px;
     letter-spacing: 4%;
     text-align: left;
 }
 .Holding p:nth-child(3){
     /* Description */
+    margin-top: -2px;
     color: rgb(218, 245, 254);
-    font-family: "SF Pro Display";
-    font-size: calc(40px*0.325);
+    font-family: "SF Pro Display 400";
+    font-size: 13.33px;
     font-weight: 400;
-    line-height: normal;
+    line-height: 15.64px;
     letter-spacing: 2%;
+    text-align: left;
+}
+.TON{
+    color: rgb(218, 245, 254);
+    font-family: "SF Compact Rounded 600";
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 1%;
     text-align: left;
 }

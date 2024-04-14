@@ -4,6 +4,7 @@ import Cap from '../../../components/UI/Cap/Cap';
 import Budget from '../Budget/Budget'
 import DatePicker from '../DatePicker/DatePicker';
 const SecondAddCreating = ({taskInformation , setTaskInformation , tonConstant }) => {
+    console.log(tonConstant)
     return (
         <div className = {cl.SecondAddCreating}>
             <Cap className={cl.Cap}  step={2} > <p className = {cl.CapText}> Создайте объявление </p> </Cap>

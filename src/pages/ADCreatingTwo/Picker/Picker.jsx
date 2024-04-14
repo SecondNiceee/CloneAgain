@@ -13,7 +13,7 @@ const Picker = ({className , whichOne , setWhichOne , setTaskInformation, taskIn
                     setTaskInformation({ ...taskInformation , taskDate : {start : '' , end : ''}})
                 }
             }} className={cl.left}>
-                <p>Точная дата</p>
+                <p className= {cl.PickText}>Точная дата</p>
             </div>
 
             <div onClick={() => {
@@ -22,7 +22,7 @@ const Picker = ({className , whichOne , setWhichOne , setTaskInformation, taskIn
                     setTaskInformation({ ...taskInformation , taskDate : {start : '' , end : ''}})
                 }
             }} className={cl.left}>
-                <p>Период</p>
+                <p className= {cl.PickText}>Период</p>
             </div>
 
         </div>

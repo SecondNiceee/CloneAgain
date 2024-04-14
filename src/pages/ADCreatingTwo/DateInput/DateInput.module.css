@@ -14,7 +14,9 @@
     /* Remove default styling */
 
 
-
+input{
+  display: none;
+}
     
     input[type="datetime-local"]::-webkit-datetime-edit,
     input[type="datetime-local"]::-webkit-inner-spin-button,
@@ -39,6 +41,42 @@
       outline: none;
       border-color: #007bff; /* Цвет выбранный вами */
     }
+
+  
+.DateTimePicker{
+  display: flex;
+  padding-left: 16.33px;
+  padding-right: 17.33px;
+  padding-top: 12.33px;
+  padding-bottom: 11.33px;
+  align-items: center;
+  border-radius: 10px;
+
+  /* Cards */
+  background: rgb(32, 48, 63);
+}
+.left{
+  display: flex;
+  gap: 9px;
+}
+.leftImage{
+  width: 16.98px;
+  height: 16.98px;
+}
+.text{
+  color: rgb(218, 245, 254);
+  font-family: "SF Pro Display 400";
+  font-size: 16.67px;
+  font-weight: 400;
+  line-height: 18.31px;
+  letter-spacing: 1%;
+  text-align: left;
+}
+.arrowRight{
+  margin-left: auto;
+  width: 5.73px;
+  height: 11.33px;
+}
     
 
 

@@ -10,8 +10,9 @@ const DatePicker = ({className , taskInformation , setTaskInformation}) => {
     return (
         <div className= {className ? [cl.DatePicker , className].join(' ') : cl.DatePickerr}>
             <GreyText className={cl.GreyText}>Когда нужно приступить к работе?</GreyText>
-            <Picker whichOne={whichOne} setWhichOne={setWhichOne} taskInformation = {taskInformation}  setTaskInformation={setTaskInformation} />
-            <CatchDate className={cl.CatchDate} />
+            <Picker className={cl.picker} whichOne={whichOne} setWhichOne={setWhichOne} taskInformation = {taskInformation}  setTaskInformation={setTaskInformation} />
+
+            <CatchDate className={cl.CatchDate} whichOne={whichOne} />
         </div>
     );
 };

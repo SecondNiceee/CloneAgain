@@ -1,14 +1,16 @@
 .Picker{
-    border-radius: calc(25px * 0.32) ;
-    background: rgba(118, 118, 128, 0.324);
+    border-radius: 8.35px;
+
+    /* Fill Color/Dark/Tertiary */
+    background: rgba(118, 118, 128, 0.24);
     display: flex;
     position: relative;
 
 }
 .left{
     display: flex;
-    padding-top: calc(20px * 0.32);
-    padding-bottom: calc(20px * 0.32);
+    padding-top: calc(8.74px);
+    padding-bottom: calc(7.96px);
     align-items: center;
     justify-content: center;
     width: 50%;
@@ -17,36 +19,39 @@
 }
 .right{
     display: flex;
-    padding-top: calc(20px * 0.32);
-    padding-bottom: calc(20px * 0.32);
+    padding-top: calc(8.74px);
+    padding-bottom: calc(7.96px);
     align-items: center;
     justify-content: center;
     width: 50%; 
     cursor: pointer;
     z-index: 10;
 }
-p{
+.PickText{
     color: rgb(255, 255, 255);
-    font-family: "SF Pro Text";
-    font-size: calc(40px * 0.325);
+    font-family: "SF Pro Text 600";
+    font-size: 13.57px;
     font-weight: 600;
-    line-height: normal;
+    line-height: 16.7px;
+    letter-spacing: -0.08px;
     text-align: center;
 }
 .greyBlock{
+    height: 29.23px;
     width: 50%;
-    border-radius: calc(25px * 0.32) ;
+    border: 0.52px solid rgba(0, 0, 0, 0.04);
+    border-radius: 7.31px;
+    background: rgb(99, 99, 102);
     position: absolute;
-    height: 100%;
     border: 1.57px solid rgba(0, 0, 0, 0.04);
     background: rgb(99, 99, 102);
-    transition: 0.32s;
+    transition: 0.15s;
+    bottom: 2.08px;
 }
 .greyBlock.rightBlock{
-
-    right: 0%;
+    right: 2.08px;
 }
 .greyBlock.leftBlock{
-    right: 50%;
+    right: calc(50% - 2.08px);
     
 }

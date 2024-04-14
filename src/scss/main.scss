@@ -4,8 +4,8 @@
 @import './First/_TaskDetails.scss';
 @import './AdCreating.scss';
 @import './Profile/Profile.scss';
-@import './Balance.scss';s
-
+@import './Balance.scss';
+@import './MyAds';
 * {
     -webkit-tap-highlight-color: transparent;
     // overflow: hidden;
@@ -20,9 +20,10 @@
     background: rgb(24, 34, 45);
     max-width: 430px;
     height: 700px;
-
+    transition: 0.5s;
     position: relative;
     overflow-x: hidden;
 
 }
+
 *::-webkit-scrollbar {display:none;}
